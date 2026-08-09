@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "IS&S Solicitation",
+  "type": "object",
+  "required": [
+    "solicitation_id",
+    "title",
+    "agency"
+  ],
+  "properties": {
+    "solicitation_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "agency": {
+      "type": "string"
+    },
+    "posted_date": {
+      "type": "string"
+    },
+    "due_date": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "items": {
+      "type": "array"
+    },
+    "source_url": {
+      "type": "string"
+    },
+    "evidence_level": {
+      "type": "string"
+    }
+  }
+}

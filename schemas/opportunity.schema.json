@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "IS&S Opportunity",
+  "type": "object",
+  "required": [
+    "opportunity_id",
+    "solicitation_id",
+    "capture_status"
+  ],
+  "properties": {
+    "opportunity_id": {
+      "type": "string"
+    },
+    "solicitation_id": {
+      "type": "string"
+    },
+    "capture_status": {
+      "enum": [
+        "discovered",
+        "qualified",
+        "bid",
+        "no_bid",
+        "submitted",
+        "awarded",
+        "lost",
+        "closed"
+      ]
+    },
+    "fit_score": {
+      "type": "number"
+    },
+    "win_probability": {
+      "type": "number"
+    }
+  }
+}

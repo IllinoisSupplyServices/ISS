@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "IS&S Vendor",
+  "type": "object",
+  "required": [
+    "vendor_id",
+    "name"
+  ],
+  "properties": {
+    "vendor_id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "vendor_type": {
+      "type": "string"
+    },
+    "products": {
+      "type": "array"
+    },
+    "agencies_served": {
+      "type": "array"
+    },
+    "competitive_role": {
+      "type": "string"
+    }
+  }
+}

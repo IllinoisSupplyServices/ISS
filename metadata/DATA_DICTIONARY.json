@@ -1,0 +1,19 @@
+{
+  "entities": {
+    "region": "Illinois economic development region",
+    "county": "County assigned to an Illinois region",
+    "municipality": "City, village or town capture node",
+    "agency": "Procurement entity",
+    "opportunity": "Solicitation/procurement opportunity",
+    "award": "Verified award/PO/contract outcome",
+    "vendor": "Supplier or competitor",
+    "pricing": "Observed acquisition, market or bid pricing",
+    "capture": "IS&S pursuit and relationship history"
+  },
+  "evidence_levels": {
+    "verified": "Primary source or directly observed evidence",
+    "corroborated": "Multiple credible independent sources",
+    "unverified": "Lead requiring validation",
+    "inferred": "Analytical conclusion, not source fact"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "IS&S Pricing",
+  "type": "object",
+  "required": [
+    "pricing_id",
+    "item",
+    "price_type",
+    "amount"
+  ],
+  "properties": {
+    "pricing_id": {
+      "type": "string"
+    },
+    "item": {
+      "type": "string"
+    },
+    "price_type": {
+      "enum": [
+        "acquisition_floor",
+        "landed_cost",
+        "market_benchmark",
+        "market_ceiling",
+        "bid_price",
+        "award_price"
+      ]
+    },
+    "amount": {
+      "type": "number"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "shipping": {
+      "type": "number"
+    },
+    "tax": {
+      "type": "number"
+    },
+    "source_ref": {
+      "type": "string"
+    },
+    "verified": {
+      "type": "boolean"
+    }
+  }
+}

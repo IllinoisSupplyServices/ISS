@@ -1,0 +1,23 @@
+{
+  "required": [
+    "folder_id",
+    "folder_type",
+    "canonical_name",
+    "parent_id",
+    "description",
+    "status",
+    "ai_instructions"
+  ],
+  "folder_types": [
+    "region",
+    "county",
+    "municipality",
+    "agency",
+    "opportunity",
+    "award",
+    "vendor",
+    "pricing",
+    "capture",
+    "knowledge"
+  ]
+}

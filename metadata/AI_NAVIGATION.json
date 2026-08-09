@@ -1,0 +1,21 @@
+{
+  "purpose": "Tell AI agents what this repository contains without requiring recursive inspection first.",
+  "read_order": [
+    "README.md",
+    "config/iss-system.json",
+    "metadata/DATA_DICTIONARY.json",
+    "metadata/FOLDER_METADATA_SCHEMA.json",
+    "data/geography/illinois.json",
+    "schemas/*.schema.json",
+    "prompts/system/*"
+  ],
+  "rules": [
+    "Read metadata before recursive inspection.",
+    "Preserve provenance.",
+    "Separate verified facts from inference.",
+    "Do not infer award coverage from folder existence.",
+    "Use stable IDs and deduplicate.",
+    "Keep acquisition cost separate from market ceiling.",
+    "Domestic sourcing only unless explicitly authorized."
+  ]
+}

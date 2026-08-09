@@ -1,0 +1,21 @@
+{
+  "source_types": [
+    "government_procurement_portal",
+    "government_agency",
+    "manufacturer",
+    "regional_distributor",
+    "independent_supplier",
+    "marketplace_third_party",
+    "private_seller",
+    "liquidation",
+    "closeout",
+    "big_box_benchmark"
+  ],
+  "source_policy": {
+    "overseas": false,
+    "independent_suppliers_preferred": true,
+    "big_box_as_default_supplier": false,
+    "marketplace_sellers_allowed": true,
+    "verification_required": true
+  }
+}

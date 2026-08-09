@@ -1,0 +1,29 @@
+{
+  "system": "IS&S",
+  "platform": "ISSPOS",
+  "architecture_version": "1.0.0",
+  "purpose": "Government procurement intelligence, opportunity discovery, sourcing, pricing, competitive intelligence and capture management.",
+  "authoritative_layers": {
+    "dropbox": "document_and_evidence_repository",
+    "github": "engineering_schema_automation_repository",
+    "json": "machine_readable_operating_model"
+  },
+  "geographic_scope": {
+    "country": "US",
+    "state": "Illinois",
+    "regions": 10,
+    "counties": 102
+  },
+  "capture_chain": [
+    "region",
+    "county",
+    "municipality",
+    "agency",
+    "opportunity",
+    "bid",
+    "award"
+  ],
+  "coverage_rule": "verified_award_or_contract_only",
+  "sourcing_rule": "domestic_sources_only_unless_explicitly_authorized",
+  "price_rule": "separate_acquisition_floor_from_defensible_market_ceiling"
+}

@@ -1,0 +1,66 @@
+{
+  "state": "Illinois",
+  "state_code": "IL",
+  "region_count": 10,
+  "county_count": 102,
+  "regions": [
+    {
+      "region_id": "01",
+      "name": "Central"
+    },
+    {
+      "region_id": "02",
+      "name": "East Central"
+    },
+    {
+      "region_id": "03",
+      "name": "North Central"
+    },
+    {
+      "region_id": "04",
+      "name": "Northeast"
+    },
+    {
+      "region_id": "05",
+      "name": "Northern Stateline"
+    },
+    {
+      "region_id": "06",
+      "name": "Northwest"
+    },
+    {
+      "region_id": "07",
+      "name": "Southeastern"
+    },
+    {
+      "region_id": "08",
+      "name": "Southern"
+    },
+    {
+      "region_id": "09",
+      "name": "Southwestern"
+    },
+    {
+      "region_id": "10",
+      "name": "West Central"
+    }
+  ],
+  "county_assignments": {
+    "07": [
+      "Clark",
+      "Clay",
+      "Coles",
+      "Crawford",
+      "Cumberland",
+      "Edgar",
+      "Effingham",
+      "Fayette",
+      "Jasper",
+      "Lawrence",
+      "Marion",
+      "Moultrie",
+      "Richland"
+    ]
+  },
+  "notes": "Complete remaining county assignments from the authoritative Illinois IDES regional source during geography ingestion."
+}

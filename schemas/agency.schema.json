@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "IS&S Agency",
+  "type": "object",
+  "required": [
+    "agency_id",
+    "name",
+    "agency_type"
+  ],
+  "properties": {
+    "agency_id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "agency_type": {
+      "type": "string"
+    },
+    "region_id": {
+      "type": "string"
+    },
+    "county_id": {
+      "type": "string"
+    },
+    "municipality_id": {
+      "type": "string"
+    },
+    "source_refs": {
+      "type": "array"
+    },
+    "capture_status": {
+      "type": "string"
+    }
+  }
+}
