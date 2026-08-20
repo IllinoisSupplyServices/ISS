@@ -1,0 +1,36 @@
+{
+  "policy": "IS&S V1 SOURCING",
+  "version": "1.0.0",
+  "search_order": [
+    "saved_supplier_memory",
+    "saved_retailer_memory",
+    "prior_successful_sources",
+    "manufacturer_sku_propagation",
+    "authorized_distributors",
+    "open_web_expansion"
+  ],
+  "candidate_required_fields": [
+    "supplier_name",
+    "product_name",
+    "manufacturer",
+    "manufacturer_part_number",
+    "direct_product_url",
+    "image_url",
+    "unit_price",
+    "uom",
+    "quantity_available_state",
+    "spec_match_state",
+    "freight_state",
+    "last_verified_at",
+    "provenance"
+  ],
+  "candidate_zero_tolerance": {
+    "missing_direct_product_url": "REJECT",
+    "missing_image_url": "REJECT",
+    "stale_price": "REVALIDATE",
+    "unsupported_equivalence": "REJECT",
+    "landed_cost_unknown": "DO_NOT_PRICE_AS_READY"
+  },
+  "economics_required": ["acquisition_cost", "freight", "landed_cost", "bid_price", "gross_profit", "net_profit"],
+  "profit_formula": "net_profit = bid_revenue - acquisition_cost - freight - taxes_if_applicable - payment_processing - fulfillment - contingency - other_allocable_costs"
+}

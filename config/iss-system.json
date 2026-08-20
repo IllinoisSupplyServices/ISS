@@ -1,6 +1,6 @@
 {
-  "system": "IS&S",
-  "platform": "ISSPOS",
+  "system": "IS&S V1",
+  "platform": "IS&S V1",
   "architecture_version": "1.0.1",
   "purpose": "Government procurement intelligence, opportunity discovery, sourcing, pricing, competitive intelligence and capture management.",
   "authoritative_layers": {

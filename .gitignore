@@ -1,0 +1,27 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.secret
+secrets.json
+credentials.json
+service-account.json
+config/*.local.json
+config/*.production.json
+
+# Generated/private business state
+data/private/
+data/generated/
+artifacts/
+
+# Runtime/cache
+__pycache__/
+*.pyc
+.pytest_cache/
+*.log
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
