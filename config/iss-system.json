@@ -1,12 +1,18 @@
 {
   "system": "IS&S",
   "platform": "ISSPOS",
-  "architecture_version": "1.0.0",
+  "architecture_version": "1.0.1",
   "purpose": "Government procurement intelligence, opportunity discovery, sourcing, pricing, competitive intelligence and capture management.",
   "authoritative_layers": {
-    "dropbox": "document_and_evidence_repository",
-    "github": "engineering_schema_automation_repository",
+    "google_drive": "canonical_business_state",
+    "dropbox": "evidence_provenance_and_recovery",
+    "github": "system_control_derived_intelligence_and_authorized_replica_only",
     "json": "machine_readable_operating_model"
+  },
+  "authority_rules": {
+    "raw_evidence_promotion": "prohibited_without_explicit_validation_and_authorization",
+    "stale_evidence_promotion": "prohibited",
+    "github_business_state_promotion": "prohibited_except_explicitly_authorized_replica_only_mirror"
   },
   "geographic_scope": {
     "country": "US",
