@@ -2,16 +2,16 @@
   "policy": "IS&S V1 GATES",
   "version": "1.0.0",
   "gates": {
-    "G1": {"name": "requirement_and_specification", "hard_gate": true},
-    "G2": {"name": "source_quantity_uom_and_availability", "hard_gate": true},
-    "G3": {"name": "boa_compliance_and_evidence_package", "hard_gate": true},
-    "G4": {"name": "freight_delivery_and_landed_cost", "hard_gate": true},
-    "G5": {"name": "pricing_profit_and_approval", "hard_gate": true}
+    "G1": { "name": "requirement_and_specification", "hard_gate": true },
+    "G2": { "name": "source_quantity_uom_and_availability", "hard_gate": true },
+    "G3": { "name": "boa_compliance_and_evidence_package", "hard_gate": true },
+    "G4": { "name": "freight_delivery_and_landed_cost", "hard_gate": true },
+    "G5": { "name": "pricing_profit_and_approval", "hard_gate": true }
   },
   "rules": {
     "failed_gate_cannot_advance": true,
     "unknown_material_fact_cannot_be_assumed": true,
-    "three_failed_sourcing_attempts": "UNRESOLVABLE",
+    "three_failed_sourcing_attempts": { "threshold": 3, "outcome": "UNRESOLVABLE" },
     "submission_requires_explicit_approval": true,
     "purchase_requires_explicit_approval": true,
     "email_requires_explicit_approval": true,

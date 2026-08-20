@@ -1,0 +1,28 @@
+{
+  "system": "IS&S V1",
+  "version": "1.0.0",
+  "status": "ACTIVE_FOUNDATION",
+  "read_order": [
+    "config/iss-system.json",
+    "config/IS&S_V1_NAMING.json",
+    "config/IS&S_V1_SOURCING_POLICY.json",
+    "config/IS&S_V1_GATE_POLICY.json",
+    "schemas/supplier-memory.schema.json"
+  ],
+  "planes": {
+    "github": "control_plane",
+    "google_drive": "canonical_business_state",
+    "dropbox": "evidence_provenance_and_recovery"
+  },
+  "state_classes": ["VERIFIED", "OBSERVED", "INFERRED", "UNKNOWN", "STALE", "CONFLICT", "UNVERIFIED"],
+  "hard_rules": {
+    "no_unverified_fact_promotion": true,
+    "no_bid_below_landed_cost": true,
+    "net_profit_required": true,
+    "equivalent_first": true,
+    "saved_supplier_memory_first": true,
+    "product_image_required_every_candidate": true,
+    "direct_product_url_required_every_candidate": true,
+    "external_action_requires_explicit_approval": true
+  }
+}
