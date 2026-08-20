@@ -1,0 +1,5 @@
+{
+  "deprecated": true,
+  "replaced_by": "config/IS&S_V1_MASTER_INDEX_v1_1.json",
+  "note": "This file was superseded by IS&S_V1_MASTER_INDEX_v1_1.json (version 1.1.0) on branch fix/config-consistency. It is kept here as a deprecated marker and will be removed after the PR is merged. Use the v1_1 file as the authoritative master index."
+}

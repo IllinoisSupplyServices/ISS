@@ -1,0 +1,54 @@
+name: JSON Schema Validation
+
+on:
+  pull_request:
+    branches: [ main ]
+  push:
+    branches: [ fix/config-consistency ]
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install ajv-cli
+        run: npm install -g ajv-cli
+
+      - name: Validate JSON syntax
+        shell: bash
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          files=(config/*.json schemas/*.json)
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "No config/schema JSON files found."
+            exit 1
+          fi
+          for f in "${files[@]}"; do
+            echo "Validating syntax: $f"
+            node -e "JSON.parse(require('fs').readFileSync(process.argv[1], 'utf8')); console.log('OK', process.argv[1])" "$f"
+          done
+
+      - name: Validate supplier-memory samples if present
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ ! -d samples ]; then
+            echo "No samples/ directory found; skipping sample validation."
+            exit 0
+          fi
+          mapfile -t sample_files < <(find samples -type f -name 'supplier-*.json' -print)
+          if [ ${#sample_files[@]} -eq 0 ]; then
+            echo "No supplier-memory sample files found; skipping sample validation."
+            exit 0
+          fi
+          for f in "${sample_files[@]}"; do
+            echo "Validating schema: $f"
+            ajv validate --spec=draft7 -s schemas/supplier-memory.schema.json -d "$f"
+          done

@@ -3,20 +3,35 @@
   "$id": "https://illinoissupplyservices.com/schemas/supplier-memory.schema.json",
   "title": "IS&S V1 Supplier Memory Record",
   "type": "object",
-  "required": ["supplier_id", "supplier_name", "verification_state", "last_verified_at", "provenance"],
+  "required": ["supplier_id", "supplier_name", "verification_state", "provenance"],
   "properties": {
-    "supplier_id": {"type": "string", "minLength": 1},
-    "supplier_name": {"type": "string", "minLength": 1},
-    "legal_name": {"type": ["string", "null"]},
-    "domain": {"type": ["string", "null"]},
-    "storefront_url": {"type": ["string", "null"]},
-    "commodity_tags": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
-    "verification_state": {"enum": ["VERIFIED", "OBSERVED", "INFERRED", "UNKNOWN", "STALE", "CONFLICT", "UNVERIFIED"]},
-    "last_verified_at": {"type": "string", "format": "date-time"},
-    "provenance": {"type": "array", "minItems": 1, "items": {"type": "object"}},
-    "payment_terms": {"type": ["string", "null"]},
-    "freight_terms": {"type": ["string", "null"]},
-    "dropship_state": {"enum": ["VERIFIED", "CONDITIONAL", "UNVERIFIED", "UNKNOWN"]}
+    "supplier_id": { "type": "string", "minLength": 1 },
+    "supplier_name": { "type": "string", "minLength": 1 },
+    "legal_name": { "type": ["string", "null"] },
+    "domain": { "type": ["string", "null"] },
+    "storefront_url": { "type": ["string", "null"], "format": "uri" },
+    "commodity_tags": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "verification_state": { "enum": ["VERIFIED", "OBSERVED", "INFERRED", "UNKNOWN", "STALE", "CONFLICT", "UNVERIFIED"] },
+    "last_verified_at": { "type": ["string", "null"], "format": "date-time" },
+    "provenance": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "source": { "type": "string" },
+          "retrieved_at": { "type": "string", "format": "date-time" },
+          "url": { "type": ["string", "null"], "format": "uri" },
+          "evidence_type": { "type": ["string", "null"] },
+          "notes": { "type": ["string", "null"] }
+        },
+        "required": ["source", "retrieved_at"],
+        "additionalProperties": true
+      }
+    },
+    "payment_terms": { "type": ["string", "null"] },
+    "freight_terms": { "type": ["string", "null"] },
+    "dropship_state": { "enum": ["VERIFIED", "CONDITIONAL", "UNVERIFIED", "UNKNOWN"] }
   },
   "additionalProperties": true
 }
