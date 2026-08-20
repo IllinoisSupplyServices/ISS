@@ -1,0 +1,32 @@
+{
+  "record_type": "trade_subcontractor_outreach_run",
+  "authority": "DERIVED_ONLY",
+  "canonical_authority": "Google Drive prospect ledger",
+  "program_url": "https://illinoissupplyservices.com/trade-subcontractor",
+  "program_economics": {
+    "upfront_cost_usd": 0,
+    "model": "revenue_share",
+    "activation_fee": false,
+    "annual_renewal_fee": false
+  },
+  "run_id": "TRADE-OUTREACH-20260820T173443-0400",
+  "completed_at": "2026-08-20T17:40:06-04:00",
+  "sent_count": 50,
+  "qualified_not_sent_count": 0,
+  "contact_form_only_count": 0,
+  "send_failed_count": 0,
+  "scope": "Illinois trade and facility-service contractors",
+  "trade_mix": ["facility maintenance","construction","masonry","mechanical","plumbing","HVAC","sheet metal","electrical","fire protection"],
+  "sample_prospects": ["Rapid Repair Pro LLC","JMS Facilities Inc","John Silvestri Facility Maintenance","Wellen Services","Marco and Sons Handyman Services LLC","Accel Construction Services Group","A & R Mechanical Contractors","Mid Illinois Concrete & Excavation","United Mechanical Group","Automatic Fire Systems"],
+  "gmail_evidence": {
+    "subject": "Illinois Supply & Services — Trade Subcontractor Program",
+    "send_status": "VERIFIED_SENT",
+    "individual_messages": 50
+  },
+  "drive_writeback": {
+    "status": "VERIFIED_READBACK",
+    "ledger_rows": "2-51",
+    "outreach_state": "SENT"
+  },
+  "privacy": "No private contact data or message bodies stored in GitHub derived record."
+}
