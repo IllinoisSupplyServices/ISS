@@ -4,6 +4,7 @@
   "status": "ACTIVE_FOUNDATION",
   "read_order": [
     "config/iss-system.json",
+    "config/IS&S_V1_NAMING.json",
     "config/IS&S_V1_MASTER_INDEX.json",
     "config/IS&S_V1_SOURCING_POLICY.json",
     "config/IS&S_V1_GATE_POLICY.json",
