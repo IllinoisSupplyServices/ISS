@@ -5,7 +5,6 @@
   "read_order": [
     "config/iss-system.json",
     "config/IS&S_V1_NAMING.json",
-    "config/IS&S_V1_MASTER_INDEX_v1_1.json",
     "config/IS&S_V1_ERROR_REPLACEMENT_POLICY.json",
     "config/IS&S_V1_SOURCING_POLICY.json",
     "config/IS&S_V1_GATE_POLICY.json",
@@ -16,7 +15,7 @@
     "google_drive": "canonical_business_state",
     "dropbox": "evidence_provenance_and_recovery"
   },
-  "state_classes": ["VERIFIED", "OBSERVED", "INFERRED", "UNKNOWN", "STALE", "CONFLICT"],
+  "state_classes": ["VERIFIED", "OBSERVED", "INFERRED", "UNKNOWN", "STALE", "CONFLICT", "UNVERIFIED"],
   "hard_rules": {
     "no_unverified_fact_promotion": true,
     "no_bid_below_landed_cost": true,
