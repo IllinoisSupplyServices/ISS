@@ -1,0 +1,36 @@
+{
+  "system": "IS&S V1",
+  "policy": "FULL_FILE_ERROR_REPLACEMENT",
+  "version": "1.0.0",
+  "status": "AUTHORITATIVE",
+  "trigger": "any_verified_error_requiring_a_repository_file_fix",
+  "required_method": {
+    "patch_existing_file": false,
+    "append_addendum_to_existing_file": false,
+    "create_complete_corrected_replacement_file": true,
+    "propagate_change_to_every_affected_file": true,
+    "replace_each_affected_file_as_a_complete_file": true,
+    "validate_replacement_before_retirement": true,
+    "delete_superseded_old_file_after_replacement_created": true,
+    "verify_no_active_reference_points_to_deleted_file": true
+  },
+  "replacement_sequence": [
+    "identify_root_error",
+    "identify_all_transitively_affected_files",
+    "generate_complete_corrected_replacement_for_each_affected_file",
+    "validate_internal_references_and_contracts",
+    "create_all_replacement_files",
+    "switch_authoritative_references_to_replacements",
+    "delete_all_superseded_files",
+    "run_repository_validation",
+    "confirm_no_stale_active_references_remain"
+  ],
+  "invariants": [
+    "A corrected file must be complete and independently usable; it must not depend on an addendum or patch fragment.",
+    "A root fix is incomplete until every file affected by that change is corrected.",
+    "The superseded file must not remain active after its validated replacement exists.",
+    "Historical Git commit history may retain prior content, but no current authoritative repository path or reference may rely on the superseded file.",
+    "Unknown consequences must be classified UNKNOWN and must not be silently assumed safe."
+  ],
+  "failure_state": "BLOCKED_UNTIL_COMPLETE_REPLACEMENT_AND_PROPAGATION"
+}
