@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://illinoissupplyservices.com/schemas/supplier-memory.schema.json",
-  "title": "ISSPOS Supplier Memory Record",
+  "title": "IS&S V1 Supplier Memory Record",
   "type": "object",
   "required": ["supplier_id", "supplier_name", "verification_state", "last_verified_at", "provenance"],
   "properties": {
