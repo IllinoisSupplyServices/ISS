@@ -1,0 +1,6 @@
+{
+  "system_name": "IS&S V1",
+  "status": "AUTHORITATIVE",
+  "rule": "The retired prior system name must not be used in active files, prompts, schemas, policies, pull-request titles, issue titles, workflow names, generated state, or user-facing system references.",
+  "repository": "IllinoisSupplyServices/ISS"
+}
