@@ -32,5 +32,5 @@
     "landed_cost_unknown": "DO_NOT_PRICE_AS_READY"
   },
   "economics_required": ["acquisition_cost", "freight", "landed_cost", "bid_price", "gross_profit", "net_profit"],
-  "profit_formula": "net_profit = bid_revenue - acquisition_cost - freight - taxes_if_applicable - payment_processing - fulfillment - contingency - other_allocable_costs"
+  "profit_formula": "net_profit = bid_price - acquisition_cost - freight - taxes_if_applicable - payment_processing - fulfillment - contingency - other_allocable_costs"
 }
