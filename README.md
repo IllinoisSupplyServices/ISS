@@ -1,8 +1,9 @@
-# IS&S — Intelligence Search & Solutions
+# IS&S V1 — Intelligence Search & Solutions
 
-Private engineering/control-plane repository for IS&S/ISSPOS.
+Engineering/control-plane repository for IS&S V1.
 
-- Dropbox = evidence/document repository
+- Google Drive = canonical business state
+- Dropbox = evidence/provenance/recovery repository
 - GitHub = engineering, schemas, prompts and automation
 - JSON = machine-readable operating model
 
