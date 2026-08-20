@@ -1,0 +1,50 @@
+{
+  "system": "IS&S V1",
+  "integration_id": "IS&S-V1-GITHUB-GMAIL",
+  "version": "1.0.0",
+  "status": "ACTIVE_WITH_EXTERNAL_FILTER_LIMITATION",
+  "purpose": "Connect GitHub operational notifications for IllinoisSupplyServices/ISS to the IS&S V1 Gmail operating inbox and routing model.",
+  "github": {
+    "repository": "IllinoisSupplyServices/ISS",
+    "role": "control_plane",
+    "notification_ingress": "GitHub email notifications",
+    "expected_sender_domains": ["github.com"]
+  },
+  "gmail": {
+    "role": "operational_message_plane",
+    "primary_label": "IS&S V1 GitHub",
+    "routing_intent": {
+      "match": "GitHub repository notifications for IllinoisSupplyServices/ISS",
+      "apply_label": "IS&S V1 GitHub",
+      "archive_after_label": false,
+      "preserve_read_state": true,
+      "delete": false
+    }
+  },
+  "event_classes": [
+    "workflow_failure",
+    "workflow_success",
+    "pull_request",
+    "issue",
+    "security_alert",
+    "deployment_status",
+    "repository_notification"
+  ],
+  "control_rules": {
+    "github_error_requires_fix": true,
+    "repair_method": "complete_file_replacement_when_a_file_is_defective",
+    "patch_defective_file": false,
+    "addendum_to_defective_file": false,
+    "replace_affected_files_completely": true,
+    "delete_superseded_files_after_verified_replacement": true,
+    "never_delete_email": true,
+    "preserve_email_evidence": true,
+    "external_action_requires_explicit_approval": true
+  },
+  "verification": {
+    "github_notifications_already_observed_in_gmail": true,
+    "gmail_connector_can_read_and_label_messages": true,
+    "gmail_connector_can_create_or_edit_filters": false,
+    "limitation": "The current Gmail connector does not expose Gmail filter creation/editing. Persistent Gmail-side automatic filtering must therefore be configured through Gmail settings or another authorized automation surface."
+  }
+}
