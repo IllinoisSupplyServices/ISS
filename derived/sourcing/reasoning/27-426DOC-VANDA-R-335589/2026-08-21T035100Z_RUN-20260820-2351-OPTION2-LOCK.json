@@ -1,0 +1,193 @@
+{
+  "system": "IS&S V1",
+  "record_type": "SOURCING_REASONING_RUN",
+  "run_id": "RUN-20260820-2351-OPTION2-LOCK",
+  "opportunity_or_job_id": "27-426DOC-VANDA-R-335589",
+  "observed_at": "2026-08-20T23:51:00-04:00",
+  "state": "OBSERVED",
+  "purpose": "Persist the current sourcing decision structure, user corrections, candidate treatment, and Option 2 presentation lock as an auditable record.",
+  "controlling_requirement_sources": [
+    {
+      "source": "BOA Toothpaste~1.docx",
+      "fact": "TOOTHPASTE 2.75 OZ, FRESHMINT, CLEAR TUBES; quantity 10 CV; FOB destination; BOA completion/signature/upload required; bid due 2026-08-24 10:00 a.m. CST."
+    },
+    {
+      "source": "BidBuy informal quote item screen for 27-426DOC-VANDA-R-335589",
+      "fact": "Quantity 10.00 CV / Case and Illinois Supply & Services vendor context."
+    },
+    {
+      "source": "docs/reference/IS&S_V1_SOURCING_OPTION_2_REFERENCE.jpg",
+      "fact": "User-approved canonical visual format and observed candidate summary for this sourcing run."
+    }
+  ],
+  "normalized_requirements": {
+    "item": "Toothpaste",
+    "brand_or_named_standard": "Freshmint",
+    "size": "2.75 oz",
+    "tube_requirement": "clear tubes",
+    "quantity": 10,
+    "uom": "CV / Case",
+    "delivery_basis": "FOB destination",
+    "destination": "Vandalia Correctional Center",
+    "or_equal_allowed": true
+  },
+  "search_sequence_executed": [
+    "saved supplier/source memory was checked in the sourcing session",
+    "current source candidates were compared in the sourcing session",
+    "user corrected presentation requirements to require direct links and visible item images or rendered placeholders",
+    "Option 2 dashboard was selected as the canonical sourcing presentation"
+  ],
+  "queries_and_sources_checked": [
+    {
+      "state": "OBSERVED_FROM_SESSION",
+      "note": "This lock step does not re-run supplier web verification. Candidate values below are preserved from the approved sourcing dashboard and require normal current-source revalidation before bid-ready use."
+    }
+  ],
+  "candidates_considered": [
+    {
+      "supplier": "Eros Wholesale",
+      "match_state": "EXACT_MATCH_OBSERVED",
+      "manufacturer": "New World Imports",
+      "manufacturer_part_number": "CG275",
+      "case_pack": "144 tubes/case",
+      "observed_price": "$0.64/tube; $92.16/case; $921.60 for 10 cases before freight",
+      "availability_state": "UNKNOWN",
+      "freight_state": "CART_VERIFICATION_REQUIRED",
+      "image_state": "REAL_ITEM_IMAGE_SHOWN_IN_REFERENCE",
+      "ranking_note": "Observed best exact-price lead in approved dashboard; not landed-cost ready until stock and destination freight are verified.",
+      "revalidation_required": true
+    },
+    {
+      "supplier": "Net32 / Tradent Supply",
+      "match_state": "EXACT_MATCH_OBSERVED",
+      "manufacturer": "New World Imports",
+      "manufacturer_part_number": "CG275",
+      "case_pack": "144 tubes/case",
+      "observed_price": "$121.57/case including observed surcharge; $1,215.70 for 10 cases",
+      "availability_state": "OBSERVED_IN_STOCK_BUT_DELIVERY_REVALIDATION_REQUIRED",
+      "image_state": "REAL_ITEM_IMAGE_SHOWN_IN_REFERENCE",
+      "ranking_note": "Observed best viable stocked exact candidate in approved dashboard; delivery dates require revalidation.",
+      "revalidation_required": true
+    },
+    {
+      "supplier": "CNA Medical",
+      "match_state": "EXACT_MATCH_OBSERVED",
+      "manufacturer": "New World Imports",
+      "manufacturer_part_number": "CG275",
+      "case_pack": "144/case",
+      "observed_price": "$51.00/case; $510.00 for 10 cases before freight",
+      "availability_state": "STALE_REVALIDATE",
+      "image_state": "IMAGE_PENDING_PLACEHOLDER",
+      "rejection_or_hold_reason": "Observed price was stale/unusually low; do not use for bid economics without current revalidation.",
+      "revalidation_required": true
+    },
+    {
+      "supplier": "Anchortex",
+      "match_state": "EXACT_MATCH_OBSERVED",
+      "manufacturer_part_number": "N500178 / CG275 family",
+      "case_pack": "144/case",
+      "observed_price": "$109.30/case; $1,093.00 for 10 cases before freight",
+      "availability_state": "SOLD_OUT_OBSERVED",
+      "image_state": "IMAGE_PENDING_PLACEHOLDER",
+      "rejection_or_hold_reason": "Sold out in observed dashboard; reject for current sourcing unless availability changes.",
+      "revalidation_required": true
+    },
+    {
+      "supplier": "American Detention Supplies",
+      "match_state": "EXACT_MATCH_OBSERVED",
+      "manufacturer_part_number": "ADS-N500178 / CG275 family",
+      "case_pack": "144/case",
+      "observed_price": "$109.30/case; $1,093.00 for 10 cases before freight",
+      "availability_state": "SOLD_OUT_OBSERVED",
+      "image_state": "IMAGE_PENDING_PLACEHOLDER",
+      "rejection_or_hold_reason": "Sold out in observed dashboard; reject for current sourcing unless availability changes.",
+      "revalidation_required": true
+    },
+    {
+      "supplier": "Hamilton Medical",
+      "match_state": "OR_EQUAL_OBSERVED",
+      "manufacturer_part_number": "DawnMist GTP4685",
+      "case_pack": "144/case",
+      "observed_price": "$82.99/case; $829.90 for 10 cases before freight",
+      "availability_state": "OBSERVED_USUALLY_SHIPS_5_TO_7_BUSINESS_DAYS",
+      "image_state": "IMAGE_PENDING_PLACEHOLDER",
+      "equivalency_note": "Not Freshmint brand; formal equivalency treatment required.",
+      "revalidation_required": true
+    },
+    {
+      "supplier": "SurgiMac",
+      "match_state": "OR_EQUAL_OBSERVED",
+      "manufacturer_part_number": "DawnMist GTP4685",
+      "case_pack": "144/case",
+      "observed_price": "$81.99/case; $819.90 for 10 cases before freight",
+      "availability_state": "OBSERVED_ADD_TO_CART_AVAILABLE",
+      "image_state": "IMAGE_PENDING_PLACEHOLDER",
+      "equivalency_note": "Not Freshmint brand; quantity, shipping and equivalency require confirmation.",
+      "revalidation_required": true
+    }
+  ],
+  "rejected_candidates_and_reasons": [
+    {"supplier": "Anchortex", "reason": "Observed sold out."},
+    {"supplier": "American Detention Supplies", "reason": "Observed sold out."},
+    {"supplier": "CNA Medical", "reason": "Held from bid economics because observed price was stale and required revalidation."}
+  ],
+  "exact_match_or_equivalency_rationale": [
+    {
+      "item": "Freshmint CG275",
+      "rationale": "Observed as exact match to Freshmint, 2.75 oz, clear tube/clear gel requirement with 144 tubes per case. Must still be revalidated against current source evidence before bid-ready use."
+    },
+    {
+      "item": "DawnMist GTP4685",
+      "rationale": "Observed as an or-equal path because it is not Freshmint brand; must remain labeled OR-EQUAL and requires equivalency evidence."
+    }
+  ],
+  "economics": {
+    "rule": "No bid price below verified landed cost; NET PROFIT required when inputs are complete.",
+    "current_state": "LANDED_COST_AND_NET_PROFIT_NOT_VERIFIED_IN_THIS_LOCK_STEP",
+    "reason": "Destination freight, live availability, and current source validation were not re-run during the control-lock operation."
+  },
+  "gate_decisions": {
+    "G1_requirement_and_specification": "OBSERVED_MATCH_PATH_IDENTIFIED",
+    "G2_source_quantity_uom_and_availability": "PARTIAL_REVALIDATION_REQUIRED",
+    "G3_boa_compliance_and_evidence_package": "NOT_EVALUATED_IN_THIS_LOCK_STEP",
+    "G4_freight_delivery_and_landed_cost": "OPEN",
+    "G5_pricing_profit_and_approval": "UNKNOWN_NOT_READY"
+  },
+  "conflicts_unknowns_and_stale_facts": [
+    {"state": "UNKNOWN", "fact": "Current destination freight for leading exact candidate."},
+    {"state": "UNKNOWN", "fact": "Current stock quantity for Eros Wholesale candidate."},
+    {"state": "STALE", "fact": "CNA Medical observed price requires revalidation."},
+    {"state": "UNKNOWN", "fact": "Current availability of suppliers observed as sold out may change."}
+  ],
+  "selected_or_leading_candidate_rationale": {
+    "exact_price_lead": "Eros Wholesale CG275 based on observed dashboard economics, pending stock/freight revalidation.",
+    "stocked_exact_lead": "Net32 / Tradent Supply CG275 based on observed dashboard, pending delivery revalidation.",
+    "or_equal_price_lead": "DawnMist GTP4685 via SurgiMac/Hamilton based on observed dashboard, requiring formal equivalency treatment."
+  },
+  "next_actions": [
+    "Revalidate live stock and exact case pack for leading exact candidates.",
+    "Verify destination freight to Vandalia Correctional Center.",
+    "Verify current taxes/surcharges/handling if applicable.",
+    "Replace placeholders with verified exact source images when captured.",
+    "Calculate verified landed cost and NET PROFIT before pricing recommendation.",
+    "Complete BOA evidence package and obtain explicit approval before submission."
+  ],
+  "user_corrections_or_directives": [
+    {
+      "directive": "Every sourcing candidate must show a direct product link and exact item image; if the exact image is not captured, a visible rendered placeholder must occupy the image slot."
+    },
+    {
+      "directive": "Use the approved Option 2 dashboard format for sourcing outputs."
+    },
+    {
+      "directive": "Save sourcing reasoning durably for future audit and reuse."
+    }
+  ],
+  "provenance": [
+    {"type": "CONTROL", "path": "config/IS&S_V1_SOURCING_PRESENTATION_STANDARD.json"},
+    {"type": "CONTROL", "path": "config/IS&S_V1_SOURCING_REASONING_PERSISTENCE.json"},
+    {"type": "SCHEMA", "path": "schemas/sourcing-reasoning.schema.json"},
+    {"type": "VISUAL_REFERENCE", "path": "docs/reference/IS&S_V1_SOURCING_OPTION_2_REFERENCE.jpg"}
+  ],
+  "private_reasoning_note": "This record contains auditable rationale, evidence state, calculations, alternatives and decision criteria. It does not contain hidden chain-of-thought or private scratchpad content."
+}
