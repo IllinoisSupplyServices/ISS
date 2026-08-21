@@ -1,0 +1,135 @@
+{
+  "system": "IS&S V1",
+  "record_type": "SOURCING_REASONING_RUN",
+  "run_id": "RUN-20260821-0009-DRAIN-SNAKE-PCBA",
+  "opportunity_or_job_id": "27-426DOC-JACKS-R-335638",
+  "observed_at": "2026-08-21T00:09:00-04:00",
+  "state": "OBSERVED",
+  "controlling_requirement_sources": [
+    {
+      "source": "BOA Under 50K - Drain Snake PCBA Assembly.docx",
+      "facts": [
+        "REV B 2772 PCBA ASSEMBLY, Milwaukee; like item found at Biedlers.com SKU 22-74-0026",
+        "quantity 1 each",
+        "FOB destination Jacksonville Correctional Center",
+        "bid due 2026-08-26 10:00 AM CST",
+        "electronic submission only via BidBuy or email",
+        "signed BOA required with bid",
+        "or-equal permitted with burden of proof on bidder"
+      ]
+    }
+  ],
+  "normalized_requirements": {
+    "manufacturer": "Milwaukee",
+    "requested_description": "REV B 2772 PCBA ASSEMBLY",
+    "manufacturer_part_number": "22-74-0026",
+    "quantity": 1,
+    "uom": "EA",
+    "delivery_basis": "FOB destination",
+    "destination": "Jacksonville Correctional Center, 2268 E Morton Ave, Jacksonville, IL 62650",
+    "deadline": "2026-08-26T10:00:00-06:00"
+  },
+  "search_sequence_executed": [
+    "searched Google Drive for saved source memory using 22-74-0026; no result",
+    "searched Dropbox for saved source memory using 22-74-0026; no result",
+    "searched current public web for exact manufacturer part number, alternate distributors, UPC, and manufacturer service documentation",
+    "validated current Milwaukee service-parts documentation for serial-number compatibility"
+  ],
+  "candidates_considered": [
+    {
+      "supplier": "Biedlers",
+      "match_state": "EXACT_MATCH",
+      "direct_product_url": "https://www.biedlers.com/product/22-74-0026",
+      "manufacturer": "Milwaukee",
+      "manufacturer_part_number": "22-74-0026",
+      "product_name": "REV B 2772 PCBA ASSEMBLY",
+      "observed_price": 118.27,
+      "currency": "USD",
+      "uom": "EA",
+      "availability_state": "SPECIAL_ORDER",
+      "lead_time": "typically ships in 5-10 business days",
+      "freight_state": "UNKNOWN_CHECKOUT_REQUIRED",
+      "image_state": "IMAGE_PENDING_PLACEHOLDER",
+      "source_reliability_note": "Biedlers states it is an authorized Milwaukee dealer.",
+      "status": "LEADING_VIABLE_EXACT"
+    },
+    {
+      "supplier": "Cooper Electric",
+      "match_state": "EXACT_MATCH",
+      "direct_product_url": "https://www.cooper-electric.com/product/detail/1877302/milwaukee-tool-22-74-0026",
+      "manufacturer": "Milwaukee Tool",
+      "manufacturer_part_number": "22-74-0026",
+      "observed_price": 111.23,
+      "currency": "USD",
+      "uom": "EA",
+      "availability_state": "OUT_OF_STOCK",
+      "freight_state": "UNKNOWN",
+      "image_state": "IMAGE_PENDING_PLACEHOLDER",
+      "status": "REJECT_CURRENT_OUT_OF_STOCK"
+    },
+    {
+      "supplier": "Power Tool Repair",
+      "match_state": "EXACT_MATCH",
+      "direct_product_url": "https://powertoolrepair.com/parts/Milwaukee%20Tools/ML22-74-0026",
+      "manufacturer": "Milwaukee Tools",
+      "manufacturer_part_number": "22-74-0026",
+      "product_name": "REV B 2772 PCBA ASSY",
+      "observed_price": 128.17,
+      "currency": "USD",
+      "uom": "EA",
+      "availability_state": "OUT_OF_STOCK",
+      "freight_state": "UNKNOWN",
+      "image_state": "IMAGE_PENDING_PLACEHOLDER",
+      "status": "REJECT_CURRENT_OUT_OF_STOCK"
+    },
+    {
+      "supplier": "Milwaukee / Update Kit path",
+      "match_state": "CONDITIONAL_MANUFACTURER_SUPERSESSION_FOR_H81A_ONLY",
+      "manufacturer_part_number": "42-51-0040",
+      "product_name": "Drain Snake Update Kit",
+      "direct_product_url": "https://powertoolrepair.com/parts/Milwaukee%20Tools/ML42-51-0040",
+      "observed_price": 288.48,
+      "availability_state": "OUT_OF_STOCK_AT_PTR",
+      "image_state": "IMAGE_PENDING_PLACEHOLDER",
+      "status": "CONDITIONAL_NOT_SOLICITED",
+      "reason": "Milwaukee bulletin for serial H81A says Housing Kit and PCBA Assembly must be replaced together and instructs ordering Update Kit 42-51-0040."
+    }
+  ],
+  "manufacturer_compatibility_evidence": {
+    "H81B": "Milwaukee Dec. 2025 service parts list 54-07-2781R lists 22-74-0026 PCBA Assembly directly as figure 42.",
+    "H81A": "Milwaukee Dec. 2025 service parts list 54-07-2780R lists 22-74-0026 but states Housing Kit and PCBA Assembly must be replaced together and directs ordering Update Kit 42-51-0040.",
+    "implication": "Solicitation exact SKU is sourceable, but equipment serial compatibility is a material technical risk if the facility machine is H81A rather than H81B."
+  },
+  "economics_inputs_formulas_and_results": {
+    "leading_supplier_cost": 118.27,
+    "quantity": 1,
+    "product_extension": 118.27,
+    "freight": "UNKNOWN",
+    "landed_cost": "UNKNOWN",
+    "bid_price": "UNKNOWN",
+    "net_profit": "UNKNOWN",
+    "rule": "Do not price as bid-ready until destination freight and any other direct costs are verified."
+  },
+  "gate_decisions_and_reasons": {
+    "G1_requirement_and_specification": "PASS_EXACT_SKU_IDENTIFIED",
+    "G2_source_quantity_uom_and_availability": "PARTIAL_BIEDLERS_SPECIAL_ORDER_VIABLE",
+    "G3_boa_compliance_and_evidence_package": "OPEN_SIGNED_BOA_REQUIRED",
+    "G4_freight_delivery_and_landed_cost": "OPEN_FREIGHT_UNKNOWN",
+    "G5_pricing_profit_and_approval": "NOT_READY"
+  },
+  "conflicts_unknowns_and_stale_facts": [
+    "UNKNOWN facility drain-snake serial number H81A vs H81B",
+    "UNKNOWN Biedlers destination freight to Jacksonville IL",
+    "Cooper Electric exact part is out of stock",
+    "Power Tool Repair exact part is out of stock"
+  ],
+  "selected_or_leading_candidate_rationale": "Biedlers is the leading viable exact-match source because the solicitation itself cites Biedlers SKU 22-74-0026, the current listing matches the exact Milwaukee part and description, and it is orderable as a special-order item. Freight remains unresolved.",
+  "next_actions": [
+    "verify Biedlers checkout freight to Jacksonville Correctional Center",
+    "if feasible, confirm facility machine serial H81A vs H81B before relying on standalone PCBA compatibility",
+    "calculate landed cost, bid price, and NET PROFIT after freight is known",
+    "complete and sign BOA before electronic submission",
+    "obtain explicit approval before submission"
+  ],
+  "private_reasoning_note": "This record stores auditable evidence, calculations, candidate disposition, and concise decision rationale; it does not contain hidden chain-of-thought."
+}
