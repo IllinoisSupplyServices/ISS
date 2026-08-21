@@ -1,0 +1,59 @@
+{
+  "system": "IS&S V1",
+  "policy": "SOURCING_PRESENTATION_STANDARD",
+  "version": "1.0.0",
+  "status": "AUTHORITATIVE",
+  "purpose": "Defines the required visual and evidentiary format for all IS&S V1 sourcing outputs.",
+  "presentation_standard": "OPTION_2_DASHBOARD",
+  "required_display_fields": [
+    "source_supplier",
+    "exact_or_or_equal_status",
+    "item_image_slot",
+    "manufacturer",
+    "manufacturer_part_number",
+    "product_name",
+    "specification_match",
+    "case_pack_and_uom",
+    "unit_price",
+    "extended_quantity_economics",
+    "availability_state",
+    "freight_state",
+    "landed_cost_when_known",
+    "net_profit_when_known",
+    "direct_product_url",
+    "gate_status",
+    "next_actions"
+  ],
+  "image_rules": {
+    "image_slot_required_every_candidate": true,
+    "verified_exact_item_image": "DISPLAY_REAL_IMAGE",
+    "exact_image_not_verified": "DISPLAY_VISIBLE_PLACEHOLDER_IMAGE",
+    "placeholder_label": "IMAGE PENDING — PLACEHOLDER",
+    "placeholder_counts_as_product_evidence": false,
+    "placeholder_satisfies_ui_slot_only": true,
+    "bid_ready_requires_verified_exact_item_image": true,
+    "never_replace_missing_image_with_text_only": true
+  },
+  "direct_link_rules": {
+    "direct_product_url_required_every_candidate": true,
+    "category_page_or_search_results_page_not_sufficient": true,
+    "missing_direct_product_url": "REJECT_OR_INCOMPLETE"
+  },
+  "evidence_rules": {
+    "placeholder_image_state": "IMAGE_PENDING",
+    "missing_verified_exact_image_prevents_bid_ready": true,
+    "unknown_material_facts_must_remain_unknown": true,
+    "or_equal_candidates_must_be_labeled_or_equal": true,
+    "exact_match_claim_requires_product_identity_evidence": true
+  },
+  "economics_rules": {
+    "show_case_or_unit_price": true,
+    "show_required_quantity_extension": true,
+    "show_freight_state": true,
+    "show_landed_cost_when_verified": true,
+    "show_net_profit_when_inputs_complete": true,
+    "if_landed_cost_or_profit_inputs_missing": "REPORT_UNKNOWN"
+  },
+  "user_facing_rule": "Every sourcing result must use the Option 2 dashboard-style structure. Each candidate must visibly display either the verified exact item image or a rendered placeholder image in the image slot. Writing the word PLACEHOLDER without displaying an image is noncompliant.",
+  "authority_note": "This presentation policy supplements, and does not weaken, IS&S_V1_SOURCING_POLICY.json. A placeholder image is permitted only for display continuity and never satisfies the sourcing policy requirement for verified exact product-image evidence before bid-ready status."
+}
