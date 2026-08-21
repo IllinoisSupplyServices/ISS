@@ -8,6 +8,7 @@
     "config/IS&S_V1_MASTER_INDEX_v1_1.json",
     "config/IS&S_V1_ERROR_REPLACEMENT_POLICY.json",
     "config/IS&S_V1_SOURCING_POLICY.json",
+    "config/IS&S_V1_SOURCING_PRESENTATION_STANDARD.json",
     "config/IS&S_V1_GATE_POLICY.json",
     "schemas/supplier-memory.schema.json"
   ],
@@ -25,6 +26,10 @@
     "saved_supplier_memory_first": true,
     "product_image_required_every_candidate": true,
     "direct_product_url_required_every_candidate": true,
+    "sourcing_presentation_option_2_required": true,
+    "visible_image_slot_required_every_candidate": true,
+    "missing_verified_image_requires_rendered_placeholder": true,
+    "placeholder_does_not_count_as_product_evidence": true,
     "external_action_requires_explicit_approval": true,
     "error_fix_requires_complete_new_file": true,
     "patch_or_addendum_error_fix_prohibited": true,
