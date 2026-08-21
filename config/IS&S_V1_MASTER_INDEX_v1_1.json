@@ -1,6 +1,6 @@
 {
   "system": "IS&S V1",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "status": "ACTIVE_FOUNDATION",
   "read_order": [
     "config/iss-system.json",
@@ -9,15 +9,24 @@
     "config/IS&S_V1_ERROR_REPLACEMENT_POLICY.json",
     "config/IS&S_V1_SOURCING_POLICY.json",
     "config/IS&S_V1_SOURCING_PRESENTATION_STANDARD.json",
+    "config/IS&S_V1_SOURCING_REASONING_PERSISTENCE.json",
     "config/IS&S_V1_GATE_POLICY.json",
-    "schemas/supplier-memory.schema.json"
+    "schemas/supplier-memory.schema.json",
+    "schemas/sourcing-reasoning.schema.json"
   ],
   "planes": {
     "github": "control_plane",
     "google_drive": "canonical_business_state",
     "dropbox": "evidence_provenance_and_recovery"
   },
-  "state_classes": ["VERIFIED", "OBSERVED", "INFERRED", "UNKNOWN", "STALE", "CONFLICT"],
+  "state_classes": [
+    "VERIFIED",
+    "OBSERVED",
+    "INFERRED",
+    "UNKNOWN",
+    "STALE",
+    "CONFLICT"
+  ],
   "hard_rules": {
     "no_unverified_fact_promotion": true,
     "no_bid_below_landed_cost": true,
@@ -30,6 +39,11 @@
     "visible_image_slot_required_every_candidate": true,
     "missing_verified_image_requires_rendered_placeholder": true,
     "placeholder_does_not_count_as_product_evidence": true,
+    "sourcing_reasoning_must_be_persisted": true,
+    "sourcing_rejections_and_selection_rationale_must_be_saved": true,
+    "sourcing_searches_evidence_and_calculations_must_be_saved": true,
+    "sourcing_user_corrections_must_be_saved": true,
+    "hidden_chain_of_thought_must_not_be_persisted": true,
     "external_action_requires_explicit_approval": true,
     "error_fix_requires_complete_new_file": true,
     "patch_or_addendum_error_fix_prohibited": true,

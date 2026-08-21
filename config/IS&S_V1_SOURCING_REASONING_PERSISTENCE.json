@@ -1,0 +1,64 @@
+{
+  "system": "IS&S V1",
+  "policy": "SOURCING_REASONING_PERSISTENCE",
+  "version": "1.0.0",
+  "status": "AUTHORITATIVE",
+  "purpose": "Require durable, auditable persistence of sourcing decisions, evidence, calculations, rejections, gates, corrections, and rationale for every material sourcing run.",
+  "storage": {
+    "github_role": "derived_sourcing_intelligence_and_audit_trail",
+    "canonical_path_pattern": "derived/sourcing/reasoning/<opportunity_or_job_id>/<observed_at_utc>_<run_id>.json",
+    "schema": "schemas/sourcing-reasoning.schema.json",
+    "business_state_rule": "GitHub reasoning records do not replace canonical Google Drive business state. Persist or cross-reference material business-state changes in the designated Drive record when applicable."
+  },
+  "persistence_triggers": [
+    "every_material_sourcing_run",
+    "candidate_added_or_removed",
+    "exact_match_or_equivalency_decision",
+    "supplier_rejected_or_selected",
+    "price_stock_freight_or_uom_revalidation",
+    "landed_cost_or_net_profit_calculation",
+    "gate_state_change",
+    "user_correction_or_override",
+    "material_conflict_or_unknown_identified",
+    "final_sourcing_recommendation"
+  ],
+  "required_rationale_fields": [
+    "run_id",
+    "opportunity_or_job_id",
+    "observed_at",
+    "controlling_requirement_sources",
+    "normalized_requirements",
+    "search_sequence_executed",
+    "queries_and_sources_checked",
+    "candidates_considered",
+    "candidate_identity_and_spec_evidence",
+    "direct_product_urls",
+    "image_evidence_or_placeholder_state",
+    "case_pack_uom_quantity_reasoning",
+    "availability_and_freight_evidence",
+    "rejected_candidates_and_reasons",
+    "exact_match_or_equivalency_rationale",
+    "economics_inputs_formulas_and_results",
+    "gate_decisions_and_reasons",
+    "conflicts_unknowns_and_stale_facts",
+    "selected_or_leading_candidate_rationale",
+    "next_actions",
+    "provenance",
+    "user_corrections_or_directives"
+  ],
+  "reasoning_capture_rule": "Persist concise, auditable decision rationale and evidence sufficient for another operator to reconstruct why a candidate was accepted, rejected, ranked, or blocked.",
+  "private_reasoning_boundary": "Do not persist or expose hidden chain-of-thought, private scratchpad, or internal token-by-token reasoning. Persist conclusions, evidence, calculations, decision criteria, rejected alternatives, and concise rationale instead.",
+  "immutability_and_corrections": {
+    "historical_runs_are_preserved": true,
+    "do_not_silently_overwrite_prior_reasoning": true,
+    "corrections_create_new_run_or_explicit_supersession": true,
+    "record_superseded_run_id_when_applicable": true
+  },
+  "quality_rules": {
+    "never_claim_search_or_verification_not_executed": true,
+    "every_material_claim_has_provenance_or_state": true,
+    "unknowns_remain_unknown": true,
+    "stale_facts_are_labeled_stale": true,
+    "conflicts_are_preserved": true
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/IllinoisSupplyServices/ISS/schemas/sourcing-reasoning.schema.json",
+  "title": "IS&S V1 Sourcing Reasoning Record",
+  "type": "object",
+  "required": [
+    "run_id",
+    "opportunity_or_job_id",
+    "observed_at",
+    "normalized_requirements",
+    "candidates_considered",
+    "gate_decisions",
+    "provenance"
+  ],
+  "properties": {
+    "run_id": {"type": "string"},
+    "opportunity_or_job_id": {"type": "string"},
+    "observed_at": {"type": "string"},
+    "supersedes_run_id": {"type": ["string", "null"]},
+    "controlling_requirement_sources": {"type": "array", "items": {"type": "object"}},
+    "normalized_requirements": {"type": "object"},
+    "search_sequence_executed": {"type": "array", "items": {"type": "string"}},
+    "queries_and_sources_checked": {"type": "array", "items": {"type": "object"}},
+    "candidates_considered": {"type": "array", "items": {"type": "object"}},
+    "rejected_candidates_and_reasons": {"type": "array", "items": {"type": "object"}},
+    "exact_match_or_equivalency_rationale": {"type": "array", "items": {"type": "object"}},
+    "economics": {"type": "object"},
+    "gate_decisions": {"type": "object"},
+    "conflicts_unknowns_and_stale_facts": {"type": "array", "items": {"type": "object"}},
+    "selected_or_leading_candidate_rationale": {"type": ["object", "null"]},
+    "next_actions": {"type": "array", "items": {"type": "string"}},
+    "user_corrections_or_directives": {"type": "array", "items": {"type": "object"}},
+    "provenance": {"type": "array", "items": {"type": "object"}}
+  },
+  "additionalProperties": true
+}

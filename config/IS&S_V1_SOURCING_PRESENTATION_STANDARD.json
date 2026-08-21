@@ -1,10 +1,43 @@
 {
   "system": "IS&S V1",
   "policy": "SOURCING_PRESENTATION_STANDARD",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "status": "AUTHORITATIVE",
   "purpose": "Defines the required visual and evidentiary format for all IS&S V1 sourcing outputs.",
   "presentation_standard": "OPTION_2_DASHBOARD",
+  "canonical_visual_reference": {
+    "repository_path": "docs/reference/IS&S_V1_SOURCING_OPTION_2_REFERENCE.jpg",
+    "source": "User-approved Option 2 sourcing dashboard screenshot",
+    "source_observed_at": "2026-08-20T23:51:00-04:00",
+    "source_image_sha256": "662c8c5d0eba4d2d04d5324999f41d562eec7d0ba79da85e8250bf108f77afc8",
+    "reference_copy_sha256": "9938f794ed884341207137819b4cfe89d874939f88ad13352315c01dc0378068",
+    "rule": "Use this image as the canonical visual-layout reference. Content values are illustrative; current sourcing facts must be independently verified."
+  },
+  "layout_contract": {
+    "header": [
+      "system_and_scan_status",
+      "requirement_or_opportunity_id",
+      "timestamp",
+      "gate_state",
+      "normalized_item_requirement",
+      "required_quantity_and_case_pack_when_known"
+    ],
+    "candidate_columns_in_order": [
+      "source_supplier",
+      "exact_or_or_equal_status",
+      "item_image",
+      "item_details",
+      "price_per_unit_or_case",
+      "required_quantity_extension",
+      "availability_and_freight_notes",
+      "direct_product_link"
+    ],
+    "footer_sections": [
+      "summary_decision",
+      "gate_status",
+      "next_actions"
+    ]
+  },
   "required_display_fields": [
     "source_supplier",
     "exact_or_or_equal_status",
@@ -54,6 +87,6 @@
     "show_net_profit_when_inputs_complete": true,
     "if_landed_cost_or_profit_inputs_missing": "REPORT_UNKNOWN"
   },
-  "user_facing_rule": "Every sourcing result must use the Option 2 dashboard-style structure. Each candidate must visibly display either the verified exact item image or a rendered placeholder image in the image slot. Writing the word PLACEHOLDER without displaying an image is noncompliant.",
-  "authority_note": "This presentation policy supplements, and does not weaken, IS&S_V1_SOURCING_POLICY.json. A placeholder image is permitted only for display continuity and never satisfies the sourcing policy requirement for verified exact product-image evidence before bid-ready status."
+  "user_facing_rule": "Every sourcing result must follow the Option 2 dashboard structure and visual hierarchy. Each candidate must visibly display either the verified exact item image or a rendered placeholder image. Writing PLACEHOLDER as text without an image is noncompliant.",
+  "authority_note": "This presentation policy supplements, and does not weaken, IS&S_V1_SOURCING_POLICY.json. A placeholder image is permitted only for display continuity and never satisfies verified exact product-image evidence required before bid-ready status."
 }
