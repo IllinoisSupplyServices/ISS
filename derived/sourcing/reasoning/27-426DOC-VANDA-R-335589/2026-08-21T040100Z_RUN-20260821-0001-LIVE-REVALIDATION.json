@@ -1,0 +1,150 @@
+{
+  "system": "IS&S V1",
+  "record_type": "SOURCING_REASONING_RUN",
+  "run_id": "RUN-20260821-0001-LIVE-REVALIDATION",
+  "opportunity_or_job_id": "27-426DOC-VANDA-R-335589",
+  "observed_at": "2026-08-21T00:01:00-04:00",
+  "state": "OBSERVED",
+  "controlling_requirement_sources": [
+    "BOA Toothpaste~1.docx",
+    "BidBuy informal quote item screen previously loaded"
+  ],
+  "normalized_requirements": {
+    "item": "Toothpaste",
+    "named_standard": "Freshmint",
+    "size": "2.75 oz",
+    "tube": "clear",
+    "quantity": 10,
+    "uom": "CV/Case",
+    "fob": "destination",
+    "destination": "Vandalia Correctional Center",
+    "or_equal_allowed": true,
+    "deadline": "2026-08-24T10:00:00-06:00"
+  },
+  "identity_evidence": {
+    "exact_item": "New World Imports Freshmint CG275",
+    "manufacturer_page": "https://newworldimports.com/product/cg275/",
+    "verified_spec": "Freshmint 2.75 oz clear gel anticavity fluoride toothpaste, clear tube/formulation, mint, 144 tubes/case"
+  },
+  "search_sequence_executed": [
+    "current web search for exact CG275 identity and suppliers",
+    "current direct-page verification where reachable",
+    "current image search for exact product imagery",
+    "or-equal search for DawnMist GTP4685"
+  ],
+  "candidates_considered": [
+    {
+      "supplier": "Net32 / Tradent Supply",
+      "match": "EXACT",
+      "product": "Freshmint CG275",
+      "direct_product_url": "https://www.net32.com/ec/freshmint-clear-gel-toothpaste-mint-flavor-275-d-109666",
+      "image_state": "VERIFIED_EXACT_ITEM_IMAGE_AVAILABLE",
+      "case_pack": 144,
+      "price_per_case_before_surcharge": 110.07,
+      "heavy_shipping_surcharge_per_case": 11.50,
+      "observed_total_per_case": 121.57,
+      "required_quantity_total": 1215.70,
+      "availability": "STOCKED; ships from MD in 1 business day",
+      "freight_state": "FREE_STANDARD_SHIPPING_PLUS_11_50_HEAVY_SURCHARGE_SHOWN; destination checkout still prudent",
+      "ranking": "LEADING_VIABLE_EXACT"
+    },
+    {
+      "supplier": "US Jail Supply",
+      "match": "EXACT",
+      "product": "CG275 Freshmint Clear Gel Toothpaste",
+      "direct_product_url": "https://www.usjailsupply.com/2_75_oz_Freshmint_Clear_Gel_Toothpaste_p/cg275.htm",
+      "image_state": "PLACEHOLDER_IN_DASHBOARD; manufacturer exact image separately verified",
+      "case_pack": 144,
+      "price_per_case": 123.00,
+      "required_quantity_total": 1230.00,
+      "availability": "ACTIVE_PRODUCT_PAGE; quantity field present; stock quantity not explicitly stated",
+      "freight_state": "SITE_ADVERTISES_FREE_SHIPPING_OVER_150; destination applicability requires checkout",
+      "ranking": "SECONDARY_EXACT"
+    },
+    {
+      "supplier": "CNA Medical",
+      "match": "EXACT",
+      "product": "New World Imports CG275",
+      "direct_product_url": "https://www.cna-medical.com/New-World-Imports-CG275-NEW-WORLD-IMPORTS-FRESHMI-p/cg275.htm",
+      "image_state": "PLACEHOLDER",
+      "case_pack": 144,
+      "observed_price_per_case": 51.00,
+      "required_quantity_total": 510.00,
+      "availability": "UNKNOWN",
+      "freight_state": "UNKNOWN",
+      "state_note": "STALE; source crawl approximately 5 months old; do not use for bid economics until revalidated"
+    },
+    {
+      "supplier": "American Detention Supplies",
+      "match": "EXACT",
+      "product": "FreshMint CG275",
+      "direct_product_url": "https://www.americandetentionsupplies.com/products/freshmint-cg275-2-75-oz-clear-gel-toothpaste-case",
+      "image_state": "VERIFIED_EXACT_ITEM_IMAGE_AVAILABLE",
+      "case_pack": 144,
+      "direct_page_price": 109.30,
+      "collection_price_conflict": 98.80,
+      "availability": "SOLD_OUT on direct product page",
+      "freight_state": "CALCULATED_AT_CHECKOUT",
+      "state_note": "REJECT_CURRENT; same-site price conflict preserved"
+    },
+    {
+      "supplier": "Hamilton Medical Products",
+      "match": "OR_EQUAL",
+      "product": "DawnMist GTP4685",
+      "direct_product_url": "https://www.hamiltonmedicalproducts.com/dawn-gtp4685.html",
+      "image_state": "VERIFIED_MODEL_IMAGE_AVAILABLE_FROM_CURRENT WEB SOURCES",
+      "case_pack": 144,
+      "price_per_case": 82.99,
+      "required_quantity_total": 829.90,
+      "availability": "Usually ships in 5-7 business days",
+      "freight_state": "UNKNOWN for Vandalia business destination",
+      "equivalency_note": "2.75 oz, clear gel, clear plastic tube, fluoride, mint; not Freshmint brand; formal equivalency evidence required",
+      "ranking": "LEADING_OR_EQUAL_PRICE"
+    },
+    {
+      "supplier": "Blowout Medical",
+      "match": "OR_EQUAL",
+      "product": "GTP4685",
+      "direct_product_url": "https://www.blowoutmedical.com/toothpaste-2-7-oz-gtp4685.html",
+      "image_state": "PLACEHOLDER",
+      "case_pack": 144,
+      "price_per_case": 99.60,
+      "required_quantity_total": 996.00,
+      "availability": "Add to Cart shown; fast 1-3 day delivery claimed",
+      "freight_state": "UNKNOWN",
+      "equivalency_note": "Page describes 2.7 oz while manufacturer/Dukal evidence identifies GTP4685 as 2.75 oz; treat as CONFLICT and do not use without resolving page-size inconsistency"
+    }
+  ],
+  "rejected_or_removed": [
+    {
+      "supplier": "Eros Wholesale",
+      "reason": "Previously used direct product URL now redirects to a category page; no longer satisfies direct-product-URL requirement"
+    },
+    {
+      "supplier": "American Detention Supplies",
+      "reason": "Direct product page shows sold out; price conflict also present between direct page and collection page"
+    }
+  ],
+  "economics": {
+    "leading_viable_exact_observed_total": 1215.70,
+    "leading_or_equal_product_total_before_unverified_freight": 829.90,
+    "landed_cost": "UNKNOWN until destination freight/tax/handling are fully verified",
+    "net_profit": "UNKNOWN until bid price and all allocable costs are complete"
+  },
+  "gate_status": {
+    "G1_requirement_and_specification": "PASS_EXACT_ITEM_IDENTIFIED",
+    "G2_source_quantity_uom_and_availability": "PARTIAL",
+    "G3_boa_compliance_and_evidence_package": "OPEN",
+    "G4_freight_delivery_and_landed_cost": "OPEN",
+    "G5_pricing_profit_and_approval": "NOT_READY"
+  },
+  "next_actions": [
+    "Verify destination checkout/freight for Net32 Tradent and US Jail Supply",
+    "Resolve CNA live price/stock only if worth pursuing",
+    "Build formal equivalency evidence for DawnMist GTP4685 if using or-equal path",
+    "Calculate landed cost and NET PROFIT after freight is verified",
+    "Complete BOA and obtain explicit approval before submission"
+  ],
+  "presentation": "OPTION_2_DASHBOARD",
+  "private_reasoning_boundary": "This record stores auditable evidence, calculations, alternatives, rejections and concise rationale, not hidden chain-of-thought."
+}
