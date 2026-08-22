@@ -18,8 +18,8 @@ Each completed run should be written under:
 Use an ISO-timestamped JSON or Markdown filename so the record is chronological and auditable.
 
 ## Latest completed run
-- `derived/business-programs/monitoring/runs/2026-08-22T00-54-57-04-00.md`
-- Result: meaningful new Illinois procurement-outreach opportunities found. Illinois Capital Development Board has an August 26 general informational outreach for contractors, subcontractors, suppliers and professional-service firms, plus an August 27 RISE IDOC Progressive Design-Build RFQ informational meeting. Both are imminent and were not present in the prior monitoring index.
+- `derived/business-programs/monitoring/runs/2026-08-22T01-52-06-04-00.md`
+- Result: no material change. Illinois CMS Vendor Summit details remain TBD; Illinois APEX, CEI Mentor Protégé, UIC Business Opportunity Forum, CMS Vendor Outreach and EntreCorps statuses were revalidated without a meaningful new opening/deadline/eligibility change. Newly surfaced Techstars Chicago/Anywhere cycles open August 24 but were not promoted because they are venture accelerators with weak fit to IS&S's current procurement/supplier-development operating model.
 
 ## Minimum record fields
 Each run should preserve, when available:
@@ -57,7 +57,7 @@ Persist concise, auditable sourcing/research rationale and evidence. Do not pers
 - **Illinois CMS Vendor Outreach Office Hours** — next session September 2, 2026, 1:00–2:30 PM. Priority: MEDIUM-HIGH.
 
 ## Watchlist / details pending
-- **State of Illinois Vendor Summit — Fall 2026, Springfield** — official CMS Buying Plan save-the-date says attendees will learn about doing business with State agencies/universities and upcoming contracting opportunities, with prime/subcontractor networking. Exact date, location, cost, and registration window remain unpublished. Priority: MEDIUM-HIGH WATCH; elevate when registration opens.
+- **State of Illinois Vendor Summit — Fall 2026, Springfield** — official CMS page says attendees will learn about doing business with State agencies/universities and upcoming contracting opportunities, with prime/subcontractor networking. Exact date, location, cost, and registration window remain unpublished. Priority: MEDIUM-HIGH WATCH; elevate when registration opens.
 
 ## Other material programs to monitor and revalidate
 - Illinois APEX Accelerator
