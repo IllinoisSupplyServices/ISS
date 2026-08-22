@@ -1,10 +1,11 @@
 # IS&S V1 Business Program Monitoring
 
-Latest run: `derived/business-programs/monitoring/runs/2026-08-22T07-00-24-04-00.md`
+Latest run: `derived/business-programs/monitoring/runs/2026-08-22T08-08-43-04-00.md`
 
-Latest result: NO MATERIAL CHANGE. No new application window, deadline, eligibility change, or materially stronger program met the notification threshold. RISE IDOC role-specific prequalification timing was clarified but does not materially change IS&S's current supplier/subcontractor posture.
+Latest result: MATERIAL NEWLY SURFACED PROGRAM. SBA Empower to Grow (E2G) was newly surfaced in the monitoring system as a strong Illinois-relevant no-cost government-contracting development resource. This is not claimed as a program that opened today; it is a newly identified high-value active program for IS&S consideration. Eligibility remains unresolved.
 
 High-priority active watchlist:
+- SBA Empower to Grow (E2G) — HIGH IF ELIGIBLE — free government-contracting courses, one-on-one consulting, FedMAP coaching and agency/prime networking; Illinois served through Great Lakes provider
 - Illinois CDB General Informational Outreach — August 26, 2026 — HIGH
 - Illinois CDB RISE IDOC Informational Meeting — August 27, 2026 — MEDIUM-HIGH
 - University of Illinois System Diverse Supplier Development Program Cohort 5 — HIGH IF ELIGIBLE
@@ -25,15 +26,19 @@ Supporting active resource:
 Watch item:
 - State of Illinois Vendor Summit — Fall 2026; exact date, registration window, cost and final location details remain pending.
 
+SBA Empower to Grow eligibility note:
+- Must be small under SBA size standards and meet at least one qualifying condition: location in an area of high unemployment/low income, ownership by low-income individual(s), or eligibility for SBA 8(a). Do not assume IS&S qualifies until business-specific eligibility is verified.
+- Official source: https://www.sba.gov/counseling/empower-to-grow/
+
 Role-specific clarification retained:
 - RISE IDOC: firms submitting SOQs on/after August 24, 2026 must satisfy CDB prequalification requirements; subcontractor/material-supplier participation separately requires a CDB registration number. Do not conflate prime/PDBE prequalification with supplier-only registration.
 
 Reviewed but not promoted this run:
-- Past/expired CEI procurement events.
-- Standing SBA contracting-assistance pages without a new opening or deadline.
-- CPO-GS recurring procurement-training references without a newly established material change.
-- Northwestern/Kellogg Fall 2026 student consulting coursework without a verified open external-client application.
-- Out-of-state or geographically constrained student-consulting programs with weak IS&S fit.
-- Student-only university recruiting and academic-commercialization programs without an external small-business client component.
+- Illinois I-Corps Fall 2026: academic-research commercialization focus; weak IS&S fit.
+- Illinois Business Consulting current August 21-28 window is for student consultant applications, not an external client application.
+- Illinois Consulting Academy recruitment is student-facing.
+- Illinois Transportation Enhancement Program is project-sponsor funding, not IS&S business-development support.
+- IPA energy-storage procurement is a procurement event rather than supplier-development/consulting support.
+- Standing SBA/CMS pages without a new application window, deadline or eligibility change.
 
 Run records are stored under `derived/business-programs/monitoring/runs/` and preserve source URLs, eligibility, cost, deadlines, benefits, status, changes, rejections, unknowns, and evidence.
