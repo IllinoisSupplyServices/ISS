@@ -18,8 +18,8 @@ Each completed run should be written under:
 Use an ISO-timestamped JSON or Markdown filename so the record is chronological and auditable.
 
 ## Latest completed run
-- `derived/business-programs/monitoring/runs/2026-08-21T22-57-38-04-00.md`
-- Result: two previously unindexed, currently open/high-potential University of Illinois programs surfaced — the no-cost Diverse Supplier Development Program Cohort 5 and Fall 2026 EntreCorps client consulting applications.
+- `derived/business-programs/monitoring/runs/2026-08-22T00-02-28-04-00.md`
+- Result: no material new program, application window, deadline, or eligibility change worth notifying. Previously indexed Illinois opportunities were revalidated. Illinois I-Corps Fall 2026 was newly observed in the search but rejected as an unsupported fit for IS&S because it targets university research commercialization teams.
 
 ## Minimum record fields
 Each run should preserve, when available:
@@ -51,6 +51,7 @@ Persist concise, auditable sourcing/research rationale and evidence. Do not pers
 - **2026 IMPACT Small Business Summit (MWRD)** — September 24, 2026, 8:00 AM–2:00 PM CDT, Malcolm X College, Chicago. 55+ exhibitors including agencies and prime contractors/consultants; registration link published. Cost and closing deadline not stated on official page. Priority: HIGH.
 - **Chicago's 2026 Procurement Symposium** — October 19, 2026, 10:00 AM–3:00 PM CDT, Malcolm X College, Chicago. Registration open; Eventbrite currently identifies the event as free. Includes City/sister agencies, primes, procurement/certification panels, networking, and targeted matchmaking. Priority: HIGH.
 - **Illinois CEI Mentor Protégé Program** — live; protégé participation requires BEP certification and documented track record. Priority: HIGH if eligible.
+- **Illinois APEX Accelerator** — open to existing Illinois businesses; offers one-on-one confidential counseling, government-contracting technical assistance, market research, certification help, bid matching, mentor-protégé support, SAM assistance, bid-package review, subcontracting opportunities, contract administration support and networking. Priority: HIGH.
 - **Illinois CMS Vendor Outreach Office Hours** — next session September 2, 2026, 1:00–2:30 PM. Priority: MEDIUM-HIGH.
 
 ## Watchlist / details pending
