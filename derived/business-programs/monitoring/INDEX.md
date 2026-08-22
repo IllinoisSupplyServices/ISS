@@ -1,8 +1,8 @@
 # IS&S V1 Business Program Monitoring
 
-Latest run: `derived/business-programs/monitoring/runs/2026-08-22T09-05-00-04-00.md`
+Latest run: `derived/business-programs/monitoring/runs/2026-08-22T09-51-07-04-00.md`
 
-Latest result: NO MATERIAL NEW APPLICATION WINDOW OR ELIGIBILITY CHANGE VERIFIED. Existing high-priority programs remain active. A planned American Water supplier-development expansion to 15 diverse suppliers across its footprint in October 2026 was newly surfaced as a research-watch item, but no Illinois-specific open application, deadline, cost, or cohort eligibility was verified, so it is not promoted as actionable yet.
+Latest result: NO MATERIAL NEW APPLICATION WINDOW OR ELIGIBILITY CHANGE VERIFIED. Existing high-priority programs remain active. A DCEO Business Financing Essentials webinar scheduled for August 24, 2026 was reviewed but not promoted because it is general business-development content rather than a newly verified procurement/supplier-development opportunity with clearly established applicability.
 
 High-priority active watchlist:
 - SBA Empower to Grow (E2G) — HIGH IF ELIGIBLE — free government-contracting courses, one-on-one consulting, FedMAP coaching and agency/prime networking; Illinois served through Great Lakes provider
@@ -17,8 +17,8 @@ High-priority active watchlist:
 - MWRD IMPACT Small Business Summit — September 24, 2026 — HIGH
 - Chicago 2026 Procurement Symposium — October 19, 2026 — HIGH
 - Illinois APEX Accelerator — HIGH
-- Illinois CEI Mentor Protégé Program — HIGH IF ELIGIBLE
-- SBA Mentor-Protégé Program — HIGH STRATEGIC / CONDITIONAL
+- Illinois CEI Mentor Protege Program — HIGH IF ELIGIBLE
+- SBA Mentor-Protege Program — HIGH STRATEGIC / CONDITIONAL
 
 Supporting active resource:
 - BEP Certification Virtual Office Hours — recurring certification assistance — MEDIUM
@@ -37,12 +37,9 @@ Role-specific clarification retained:
 - RISE IDOC: firms submitting SOQs on/after August 24, 2026 must satisfy CDB prequalification requirements; subcontractor/material-supplier participation separately requires a CDB registration number. Do not conflate prime/PDBE prequalification with supplier-only registration.
 
 Reviewed but not promoted this run:
+- DCEO Business Financing Essentials webinar — August 24, 2026; useful financing-readiness content, but not promoted as a procurement/supplier-development program.
 - Illinois I-Corps Fall 2026: academic-research commercialization focus; weak IS&S fit.
 - Illinois Business Consulting current August 21-28 window is for student consultant applications, not an external client application.
-- Illinois Consulting Academy recruitment is student-facing.
-- Gies Student Consulting Projects accepts client project submissions throughout the year, but no newly opened window or verified no-cost/subsidized term was found this run.
-- Illinois Sustainability project funding is student/university-project oriented.
-- Illinois IPA energy procurement items are procurement events rather than supplier-development/consulting support.
-- Standing SBA/CMS pages without a new application window, deadline or eligibility change.
+- Standing SBA/CMS/APEX/CEI pages without a new application window, deadline or eligibility change.
 
 Run records are stored under `derived/business-programs/monitoring/runs/` and preserve source URLs, eligibility, cost, deadlines, benefits, status, changes, rejections, unknowns, and evidence.
