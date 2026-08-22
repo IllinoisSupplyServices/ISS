@@ -1,8 +1,8 @@
 # IS&S V1 Business Program Monitoring
 
-Latest run: `derived/business-programs/monitoring/runs/2026-08-22T11-00-44-04-00.md`
+Latest run: `derived/business-programs/monitoring/runs/2026-08-22T12-03-13-04-00.md`
 
-Latest result: NO MATERIAL NEW APPLICATION WINDOW OR ELIGIBILITY CHANGE VERIFIED. Existing high-priority programs remain active. Current official Illinois sources were rechecked; no new program or material status change justified a repeat notification.
+Latest result: NO MATERIAL NEW APPLICATION WINDOW OR ELIGIBILITY CHANGE VERIFIED. Existing high-priority programs remain active. Current official Illinois, university, SBA-adjacent, and supplier-development sources were rechecked; no new program or material status change justified a repeat notification.
 
 High-priority active watchlist:
 - SBA Empower to Grow (E2G) — HIGH IF ELIGIBLE — free government-contracting courses, one-on-one consulting, FedMAP coaching and agency/prime networking; Illinois served through Great Lakes provider
@@ -25,6 +25,7 @@ Supporting active resource:
 
 Research watch:
 - American Water supplier-development expansion — October 2026 planned expansion to 15 diverse suppliers across the American Water footprint with mentorship and technical assistance; Illinois-specific application mechanism, eligibility, cost and deadline not yet verified. Official supplier registration: https://www.amwater.com/corp/partners-suppliers/suppliers/
+- Orange & Blue Ventures — University of Illinois student-led venture-capital program launching Fall 2026; no verified external-company application path, eligibility, cost, deadline, or evidence yet that IS&S fits the target investee profile. Do not promote until external access is verified.
 
 Watch item:
 - State of Illinois Vendor Summit — Fall 2026; exact date, registration window, cost and final location details remain pending.
@@ -37,9 +38,10 @@ Role-specific clarification retained:
 - RISE IDOC: firms submitting SOQs on/after August 24, 2026 must satisfy CDB prequalification requirements; subcontractor/material-supplier participation separately requires a CDB registration number. Do not conflate prime/PDBE prequalification with supplier-only registration.
 
 Reviewed but not promoted this run:
-- Illinois I-Corps Fall 2026: deadline August 31, but academic-research commercialization focus makes it a weak IS&S fit.
-- Illinois Business Consulting August 21-28 window is for student consultant applications, not an external client application.
-- IDOT Contractors Bulletin contains live procurement opportunities rather than a procurement-assistance/business-development program and belongs in opportunity monitoring.
-- Standing CMS, CDB, CPO-GS, CEI and APEX resources showed no new material opening or eligibility change.
+- Illinois I-Corps Fall 2026: application deadline August 31, but academic-research commercialization focus makes it a weak IS&S fit.
+- Illinois Business Consulting public materials confirm client consulting capability, but no newly verified Fall 2026 external-client opening/change was found this cycle.
+- Orange & Blue Ventures launches Fall 2026 but lacks a verified actionable external-company application path for IS&S.
+- American Water standing supplier engagement remains relevant, but no new Illinois-specific supplier-development cohort/application window was verified.
+- Standing CMS, CDB, CPO-GS, CEI, APEX and university resources showed no new material opening or eligibility change.
 
 Run records are stored under `derived/business-programs/monitoring/runs/` and preserve source URLs, eligibility, cost, deadlines, benefits, status, changes, rejections, unknowns, and evidence.
