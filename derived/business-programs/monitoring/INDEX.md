@@ -18,8 +18,8 @@ Each completed run should be written under:
 Use an ISO-timestamped JSON or Markdown filename so the record is chronological and auditable.
 
 ## Latest completed run
-- `derived/business-programs/monitoring/runs/2026-08-22T00-02-28-04-00.md`
-- Result: no material new program, application window, deadline, or eligibility change worth notifying. Previously indexed Illinois opportunities were revalidated. Illinois I-Corps Fall 2026 was newly observed in the search but rejected as an unsupported fit for IS&S because it targets university research commercialization teams.
+- `derived/business-programs/monitoring/runs/2026-08-22T00-54-57-04-00.md`
+- Result: meaningful new Illinois procurement-outreach opportunities found. Illinois Capital Development Board has an August 26 general informational outreach for contractors, subcontractors, suppliers and professional-service firms, plus an August 27 RISE IDOC Progressive Design-Build RFQ informational meeting. Both are imminent and were not present in the prior monitoring index.
 
 ## Minimum record fields
 Each run should preserve, when available:
@@ -43,6 +43,8 @@ Each run should preserve, when available:
 Persist concise, auditable sourcing/research rationale and evidence. Do not persist private chain-of-thought. Distinguish VERIFIED, OBSERVED, INFERRED, UNKNOWN, CONFLICT, and STALE where relevant.
 
 ## Current high-priority opportunities
+- **Illinois Capital Development Board — General Informational Outreach** — August 26, 2026, 9:30 AM–12:00 PM CDT, 19433 Renwick Rd., Crest Hill. CDB expressly invites contractors, subcontractors, engineers, architects, suppliers, and professional-services firms. Covers CDB prequalification, diversity requirements, bidding process, and upcoming projects. Official RSVP link published; cost and RSVP closing deadline not stated. Priority: HIGH.
+- **Illinois CDB — RISE IDOC Progressive Design-Build RFQ Informational Meeting** — August 27, 2026, 10:00 AM–12:00 PM CDT, 333 S. Wabash Ave., Chicago, with virtual attendance option. RFQ overview and Q&A for a major IDOC progressive-design-build procurement. Direct IS&S prime/team eligibility is not established; useful for procurement intelligence and possible teaming/subcontracting awareness. Priority: MEDIUM-HIGH.
 - **University of Illinois System Diverse Supplier Development Program — Cohort 5** — applications currently open; cohort begins August 2026. Nine-month program with student consulting, workshops, government-contracting support, financial/data/technology training, and guided BEP certification path. No cost. Eligibility requires minority-, woman-, person-with-disabilities-, and/or veteran-owned small business; priority also favors current U of I suppliers, firms 3+ years old, and firms with at least one employee besides owner. Deadline not stated. Priority: HIGH IF ELIGIBLE.
 - **EntreCorps — Fall 2026 Client Applications** — pro-bono University of Illinois student consulting for Fall 2026 (September–December), with strategic research, market/customer analysis, growth strategy and related business problem-solving. Current announcement seeks Illinois founders, startups and small businesses looking to grow or innovate. Deadline not stated. Priority: HIGH.
 - **Doing Business with UIC: Business Opportunity Forum** — August 28, 2026, 9:00 AM–2:00 PM CDT, UIC Forum, Chicago. University procurement and partnership networking/information forum. Cost and registration-close date not stated on official CEI page. Priority: HIGH.
