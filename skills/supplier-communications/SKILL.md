@@ -1,7 +1,7 @@
 ---
 name: iss-supplier-communications
 system: IS&S V1
-version: 1.0.0
+version: 1.1.0
 status: ACTIVE
 domain: supplier-development
 purpose: Convert informal supplier-outreach intent into commercially credible, relationship-first communications and supplier qualification actions.
@@ -61,7 +61,7 @@ Do not lead with Net 30, Net 60, a credit application, or a generic account-open
 
 ## 5. Human Commercial Contact Rule
 
-The preferred outcome is a real commercial contact, not a self-service link.
+The preferred email-outreach outcome is a real two-way commercial email conversation with a human representative, not a self-service link, automated response, or generic mailbox acknowledgement.
 
 Ask to be connected with the person responsible for one or more of the following when applicable:
 
@@ -83,6 +83,10 @@ When necessary, add:
 > We are not seeking only the general online account-registration process; we are looking to establish a direct commercial relationship with the appropriate sales representative.
 
 A supplier response that merely sends IS&S to a public signup form is not treated as a successful supplier-development conversion.
+
+For email outreach, the target conversion status is **HUMAN_CONTACT_ESTABLISHED_EMAIL_CONVERSATION**.
+
+This status requires a substantive supplier-originated human response that engages with IS&S's commercial request and establishes an actual email conversation with a named or directly reachable commercial representative. Automated replies, delivery receipts, bounce notices, newsletters, generic credit-application links, generic signup links, and acknowledgements that do not engage the commercial request do not qualify.
 
 ## 6. Supplier Value Proposition
 
@@ -223,21 +227,23 @@ Use these states when evaluating supplier-development progress:
 
 1. **IDENTIFIED** — supplier discovered but not contacted.
 2. **CONTACTED** — outreach sent or initial contact attempted.
-3. **HUMAN_CONTACT_ESTABLISHED** — named or direct commercial representative engaged.
+3. **HUMAN_CONTACT_ESTABLISHED_EMAIL_CONVERSATION** — a substantive supplier-originated human response has established a real two-way email conversation with a named or directly reachable commercial representative who engages the IS&S commercial request.
 4. **ACCOUNT_QUALIFICATION** — account requirements and supplier capabilities being assessed.
 5. **COMMERCIAL_TERMS_KNOWN** — pricing structure, MOQ/UOM, freight, lead times, delivery, quote support, and key commercial terms understood.
 6. **CREDIT_STATUS_KNOWN** — payment terms and credit requirements known, whether prepaid, card, Net 30, Net 60, or other.
 7. **SOURCING_CAPABLE** — supplier demonstrated ability to support applicable IS&S sourcing requirements.
 8. **ACTIVE_SUPPLIER** — usable supplier relationship with sufficient capability and commercial information for ongoing procurement.
 
+For email-based supplier development, **HUMAN_CONTACT_ESTABLISHED_EMAIL_CONVERSATION** is the conversion KPI. A human name discovered on a website, a generic inbox response, an automated acknowledgement, or a message that only redirects IS&S to self-service does not satisfy this state.
+
 Additional outcome flags may be used:
 
-- **WRONG_OUTCOME_SELF_SERVICE** — response only redirected IS&S to generic registration or credit application without establishing a commercial contact.
+- **WRONG_OUTCOME_SELF_SERVICE** — response only redirected IS&S to generic registration or credit application without establishing a commercial conversation.
 - **NO_RESPONSE** — no substantive response after reasonable outreach.
 - **NOT_A_FIT** — supplier cannot support the required product, geography, commercial model, or account structure.
 - **REVALIDATE** — previously useful information is stale or incomplete.
 
-A reply alone does not equal supplier-development success. The principal conversion KPI is **human commercial contact established**.
+A reply alone does not equal supplier-development success. The principal email conversion KPI is **HUMAN_CONTACT_ESTABLISHED_EMAIL_CONVERSATION**.
 
 ## 13. Drafting Modes
 
@@ -307,7 +313,7 @@ Before returning a supplier communication, confirm:
 - the real commercial objective is represented;
 - IS&S's value to the supplier is stated when useful;
 - the draft does not lead with a credit request unless explicitly necessary;
-- the message asks for a human commercial contact;
+- the message asks for a human commercial contact and aims to establish an email conversation;
 - important operational questions are included without bloating the email;
 - no guaranteed volume or awards are implied;
 - no unnecessary sensitive information is disclosed;
