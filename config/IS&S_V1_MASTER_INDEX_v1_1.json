@@ -1,6 +1,6 @@
 {
   "system": "IS&S V1",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "status": "ACTIVE_FOUNDATION",
   "read_order": [
     "config/iss-system.json",
@@ -48,6 +48,7 @@
     "supplier_communications_skill_required_for_supplier_outreach": true,
     "supplier_outreach_relationship_first": true,
     "supplier_outreach_human_commercial_contact_preferred": true,
+    "supplier_email_conversion_kpi_human_contact_established_email_conversation": true,
     "supplier_generic_signup_only_is_wrong_outcome": true,
     "supplier_credit_terms_not_default_lead": true,
     "supplier_and_subcontractor_roles_must_remain_distinct": true,
