@@ -18,8 +18,8 @@ Each completed run should be written under:
 Use an ISO-timestamped JSON or Markdown filename so the record is chronological and auditable.
 
 ## Latest completed run
-- `derived/business-programs/monitoring/runs/2026-08-21T21-55-49-04-00.md`
-- Result: two newly surfaced actionable Illinois procurement-development events warranted notification; one additional State vendor summit was added as a save-the-date watch item.
+- `derived/business-programs/monitoring/runs/2026-08-21T22-57-38-04-00.md`
+- Result: two previously unindexed, currently open/high-potential University of Illinois programs surfaced — the no-cost Diverse Supplier Development Program Cohort 5 and Fall 2026 EntreCorps client consulting applications.
 
 ## Minimum record fields
 Each run should preserve, when available:
@@ -43,6 +43,8 @@ Each run should preserve, when available:
 Persist concise, auditable sourcing/research rationale and evidence. Do not persist private chain-of-thought. Distinguish VERIFIED, OBSERVED, INFERRED, UNKNOWN, CONFLICT, and STALE where relevant.
 
 ## Current high-priority opportunities
+- **University of Illinois System Diverse Supplier Development Program — Cohort 5** — applications currently open; cohort begins August 2026. Nine-month program with student consulting, workshops, government-contracting support, financial/data/technology training, and guided BEP certification path. No cost. Eligibility requires minority-, woman-, person-with-disabilities-, and/or veteran-owned small business; priority also favors current U of I suppliers, firms 3+ years old, and firms with at least one employee besides owner. Deadline not stated. Priority: HIGH IF ELIGIBLE.
+- **EntreCorps — Fall 2026 Client Applications** — pro-bono University of Illinois student consulting for Fall 2026 (September–December), with strategic research, market/customer analysis, growth strategy and related business problem-solving. Current announcement seeks Illinois founders, startups and small businesses looking to grow or innovate. Deadline not stated. Priority: HIGH.
 - **Doing Business with UIC: Business Opportunity Forum** — August 28, 2026, 9:00 AM–2:00 PM CDT, UIC Forum, Chicago. University procurement and partnership networking/information forum. Cost and registration-close date not stated on official CEI page. Priority: HIGH.
 - **State of Illinois CPO-GS 3rd Annual Reverse Vendor Fair** — September 17, 2026, 9:00 AM–12:00 PM, Springfield. Registration live; cost and closing deadline not stated on official page. Priority: HIGH.
 - **Illinois CEI BEP/VBP Certification Kickstart Workshop** — September 23, 2026, 11:00 AM–1:00 PM, Skokie. Priority: HIGH if certification assistance is needed.
@@ -60,7 +62,7 @@ Persist concise, auditable sourcing/research rationale and evidence. Do not pers
 - ICCC National Accelerator
 - Goldman Sachs 10,000 Small Businesses
 - ChicagoMSDC PIPE
-- ChicagoMSDC SCALE
+- ChicagoMSDC SCALE — current application deadline September 11, 2026; eligibility thresholds may make fit conditional
 - SCORE Illinois
 - SBA Mentor-Protégé Program
 - Illinois Tollway Technical Assistance / Partnering for Growth
