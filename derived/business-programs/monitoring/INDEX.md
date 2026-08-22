@@ -1,8 +1,8 @@
 # IS&S V1 Business Program Monitoring
 
-Latest run: `derived/business-programs/monitoring/runs/2026-08-22T09-51-07-04-00.md`
+Latest run: `derived/business-programs/monitoring/runs/2026-08-22T11-00-44-04-00.md`
 
-Latest result: NO MATERIAL NEW APPLICATION WINDOW OR ELIGIBILITY CHANGE VERIFIED. Existing high-priority programs remain active. A DCEO Business Financing Essentials webinar scheduled for August 24, 2026 was reviewed but not promoted because it is general business-development content rather than a newly verified procurement/supplier-development opportunity with clearly established applicability.
+Latest result: NO MATERIAL NEW APPLICATION WINDOW OR ELIGIBILITY CHANGE VERIFIED. Existing high-priority programs remain active. Current official Illinois sources were rechecked; no new program or material status change justified a repeat notification.
 
 High-priority active watchlist:
 - SBA Empower to Grow (E2G) — HIGH IF ELIGIBLE — free government-contracting courses, one-on-one consulting, FedMAP coaching and agency/prime networking; Illinois served through Great Lakes provider
@@ -37,9 +37,9 @@ Role-specific clarification retained:
 - RISE IDOC: firms submitting SOQs on/after August 24, 2026 must satisfy CDB prequalification requirements; subcontractor/material-supplier participation separately requires a CDB registration number. Do not conflate prime/PDBE prequalification with supplier-only registration.
 
 Reviewed but not promoted this run:
-- DCEO Business Financing Essentials webinar — August 24, 2026; useful financing-readiness content, but not promoted as a procurement/supplier-development program.
-- Illinois I-Corps Fall 2026: academic-research commercialization focus; weak IS&S fit.
-- Illinois Business Consulting current August 21-28 window is for student consultant applications, not an external client application.
-- Standing SBA/CMS/APEX/CEI pages without a new application window, deadline or eligibility change.
+- Illinois I-Corps Fall 2026: deadline August 31, but academic-research commercialization focus makes it a weak IS&S fit.
+- Illinois Business Consulting August 21-28 window is for student consultant applications, not an external client application.
+- IDOT Contractors Bulletin contains live procurement opportunities rather than a procurement-assistance/business-development program and belongs in opportunity monitoring.
+- Standing CMS, CDB, CPO-GS, CEI and APEX resources showed no new material opening or eligibility change.
 
 Run records are stored under `derived/business-programs/monitoring/runs/` and preserve source URLs, eligibility, cost, deadlines, benefits, status, changes, rejections, unknowns, and evidence.
