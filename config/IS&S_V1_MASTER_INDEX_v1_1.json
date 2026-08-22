@@ -1,6 +1,6 @@
 {
   "system": "IS&S V1",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "status": "ACTIVE_FOUNDATION",
   "read_order": [
     "config/iss-system.json",
@@ -11,6 +11,7 @@
     "config/IS&S_V1_SOURCING_PRESENTATION_STANDARD.json",
     "config/IS&S_V1_SOURCING_REASONING_PERSISTENCE.json",
     "config/IS&S_V1_GATE_POLICY.json",
+    "skills/supplier-communications/SKILL.md",
     "schemas/supplier-memory.schema.json",
     "schemas/sourcing-reasoning.schema.json"
   ],
@@ -44,6 +45,14 @@
     "sourcing_searches_evidence_and_calculations_must_be_saved": true,
     "sourcing_user_corrections_must_be_saved": true,
     "hidden_chain_of_thought_must_not_be_persisted": true,
+    "supplier_communications_skill_required_for_supplier_outreach": true,
+    "supplier_outreach_relationship_first": true,
+    "supplier_outreach_human_commercial_contact_preferred": true,
+    "supplier_generic_signup_only_is_wrong_outcome": true,
+    "supplier_credit_terms_not_default_lead": true,
+    "supplier_and_subcontractor_roles_must_remain_distinct": true,
+    "supplier_outreach_must_not_imply_guaranteed_volume_or_awards": true,
+    "supplier_outreach_avoid_unnecessary_sensitive_disclosure": true,
     "external_action_requires_explicit_approval": true,
     "error_fix_requires_complete_new_file": true,
     "patch_or_addendum_error_fix_prohibited": true,
