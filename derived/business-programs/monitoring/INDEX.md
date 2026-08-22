@@ -18,8 +18,8 @@ Each completed run should be written under:
 Use an ISO-timestamped JSON or Markdown filename so the record is chronological and auditable.
 
 ## Latest completed run
-- `derived/business-programs/monitoring/runs/2026-08-22T01-52-06-04-00.md`
-- Result: no material change. Illinois CMS Vendor Summit details remain TBD; Illinois APEX, CEI Mentor Protégé, UIC Business Opportunity Forum, CMS Vendor Outreach and EntreCorps statuses were revalidated without a meaningful new opening/deadline/eligibility change. Newly surfaced Techstars Chicago/Anywhere cycles open August 24 but were not promoted because they are venture accelerators with weak fit to IS&S's current procurement/supplier-development operating model.
+- `derived/business-programs/monitoring/runs/2026-08-22T03-01-42-04-00.md`
+- Result: no material change. Illinois CDB August 26/27 outreach, CMS Vendor Outreach Office Hours, CPO-GS Reverse Vendor Fair, MWRD IMPACT Summit, Chicago Procurement Symposium, Illinois APEX and the current university/student-consulting watchlist remain active without a new application window, deadline, or eligibility change. A free SBA APEX webinar was newly surfaced but not promoted because it duplicates the stronger Illinois APEX one-on-one assistance already monitored. National Louis University's Building Better Business cohort was rejected as family-child-care-specific, and SIUE Metro East Start-Up Challenge second-round activity is limited to selected semifinalists rather than a newly open general application.
 
 ## Minimum record fields
 Each run should preserve, when available:
