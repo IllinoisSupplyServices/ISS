@@ -1,8 +1,8 @@
 # IS&S V1 Business Program Monitoring
 
-Latest run: `derived/business-programs/monitoring/runs/2026-08-22T03-57-48-04-00.md`
+Latest run: `derived/business-programs/monitoring/runs/2026-08-22T04-56-43-04-00.md`
 
-Latest result: NO MATERIAL CHANGE. No new application window, deadline, or eligibility change met the notification threshold.
+Latest result: NO MATERIAL CHANGE. No new application window, deadline, eligibility change, or materially stronger program met the notification threshold.
 
 High-priority active watchlist:
 - Illinois CDB General Informational Outreach — August 26, 2026 — HIGH
@@ -19,12 +19,15 @@ High-priority active watchlist:
 - Illinois CEI Mentor Protégé Program — HIGH IF ELIGIBLE
 - SBA Mentor-Protégé Program — HIGH STRATEGIC / CONDITIONAL
 
+Supporting active resource:
+- BEP Certification Virtual Office Hours — August 26, 2026 — MEDIUM / recurring certification assistance
+
 Watch item:
-- State of Illinois Vendor Summit — Fall 2026; exact date, registration window, cost and location details remain pending.
+- State of Illinois Vendor Summit — Fall 2026; exact date, registration window, cost and final location details remain pending.
 
 Reviewed but not promoted this run:
-- Illinois I-Corps Fall 2026: academic-research commercialization scope.
-- Illinois Business Consulting August 21–28 window: student applications, not client applications.
-- Illinois Consulting Academy August activity: student recruitment, not external client consulting.
+- Illinois I-Corps: academic-research commercialization scope.
+- Student-only university consulting recruitment windows: not client applications.
+- Illinois State Fair / Summit of Hope vendor participation: outside capacity-building scope.
 
 Run records are stored under `derived/business-programs/monitoring/runs/` and preserve source URLs, eligibility, cost, deadlines, benefits, status, changes, rejections, unknowns, and evidence.
