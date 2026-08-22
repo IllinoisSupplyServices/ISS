@@ -1,6 +1,6 @@
 # IS&S V1 Business Program Monitoring
 
-Latest run: `derived/business-programs/monitoring/runs/2026-08-22T04-56-43-04-00.md`
+Latest run: `derived/business-programs/monitoring/runs/2026-08-22T06-08-02-04-00.md`
 
 Latest result: NO MATERIAL CHANGE. No new application window, deadline, eligibility change, or materially stronger program met the notification threshold.
 
@@ -26,8 +26,9 @@ Watch item:
 - State of Illinois Vendor Summit — Fall 2026; exact date, registration window, cost and final location details remain pending.
 
 Reviewed but not promoted this run:
-- Illinois I-Corps: academic-research commercialization scope.
-- Student-only university consulting recruitment windows: not client applications.
-- Illinois State Fair / Summit of Hope vendor participation: outside capacity-building scope.
+- Past/expired CEI procurement events.
+- Standing SBA contracting-assistance pages without a new opening or deadline.
+- CPO-GS recurring weekly procurement-training references without a newly established material change.
+- Student-only university recruiting and academic-commercialization programs without an external small-business client component.
 
 Run records are stored under `derived/business-programs/monitoring/runs/` and preserve source URLs, eligibility, cost, deadlines, benefits, status, changes, rejections, unknowns, and evidence.
