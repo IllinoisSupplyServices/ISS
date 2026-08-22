@@ -1,8 +1,8 @@
 # IS&S V1 Business Program Monitoring
 
-Latest run: `derived/business-programs/monitoring/runs/2026-08-22T13-00-50-04-00.md`
+Latest run: `derived/business-programs/monitoring/runs/2026-08-22T13-55-21-04-00.md`
 
-Latest result: NO MATERIAL NEW APPLICATION WINDOW OR ELIGIBILITY CHANGE VERIFIED. Existing high-priority programs remain active. Current official Illinois, university, SBA-adjacent, student-consulting, and supplier-development sources were rechecked; no new program or material status change justified a repeat notification.
+Latest result: NO MATERIAL NEW APPLICATION WINDOW OR ELIGIBILITY CHANGE VERIFIED. Existing high-priority programs remain active. Current official Illinois, university, SBA/resource-partner, student-consulting, supplier-development, CDB and CPO-GS sources were rechecked; no new program or material status change justified a repeat notification.
 
 High-priority active watchlist:
 - SBA Empower to Grow (E2G) — HIGH IF ELIGIBLE — free government-contracting courses, one-on-one consulting, FedMAP coaching and agency/prime networking; Illinois served through Great Lakes provider
@@ -23,6 +23,8 @@ High-priority active watchlist:
 Supporting active resources:
 - BEP Certification Virtual Office Hours — recurring certification assistance — MEDIUM
 - Gies College of Business Student Consulting Projects — proposals reviewed throughout the year; project matching across undergraduate, graduate and IBC channels; cost varies by program — MEDIUM-HIGH standing channel
+- SBA/SBDC Government Contracting 101 online webinar — August 25, 2026 — useful generic training but lower priority than Illinois-specific procurement channels
+- Government Contracts Unlocked Module 4: Proposal Writing and Beyond — August 26, 2026 — useful training but part of an already-running series; not treated as a new program opening
 
 Research watch:
 - American Water supplier-development expansion — October 2026 planned expansion to 15 diverse suppliers across the American Water footprint with mentorship and technical assistance; Illinois-specific application mechanism, eligibility, cost and deadline not yet verified. Official supplier registration: https://www.amwater.com/corp/partners-suppliers/suppliers/
@@ -39,6 +41,8 @@ Role-specific clarification retained:
 - RISE IDOC: firms submitting SOQs on/after August 24, 2026 must satisfy CDB prequalification requirements; subcontractor/material-supplier participation separately requires a CDB registration number. Do not conflate prime/PDBE prequalification with supplier-only registration.
 
 Reviewed but not promoted this run:
+- SBA/SBDC Government Contracting 101 on August 25 is broadly relevant but generic and not a newly verified opening; lower priority than Illinois APEX, CMS, CPO-GS, CEI and university channels.
+- Government Contracts Unlocked Module 4 on August 26 is an ongoing-series training event, not a new sustained support program.
 - Illinois Business Consulting August 21-28, 2026 application window is for students, not external business clients; IBC remains fee-based.
 - Gies general Student Consulting Projects accepts proposals throughout the year, but this is standing access rather than a newly opened Fall 2026 window and costs vary by program.
 - Illinois Consulting Academy Fall 2026 materials are student recruitment, not business-client intake.
