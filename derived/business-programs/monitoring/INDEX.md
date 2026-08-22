@@ -17,6 +17,10 @@ Each completed run should be written under:
 
 Use an ISO-timestamped JSON or Markdown filename so the record is chronological and auditable.
 
+## Latest completed run
+- `derived/business-programs/monitoring/runs/2026-08-21T21-05-25-04-00.md`
+- Result: two newly surfaced high-priority Illinois opportunities warranted notification.
+
 ## Minimum record fields
 Each run should preserve, when available:
 - search timestamp
@@ -38,8 +42,14 @@ Each run should preserve, when available:
 ## Evidence standard
 Persist concise, auditable sourcing/research rationale and evidence. Do not persist private chain-of-thought. Distinguish VERIFIED, OBSERVED, INFERRED, UNKNOWN, CONFLICT, and STALE where relevant.
 
-## Current known high-priority programs
-Initial research identified the following as material candidates to monitor and revalidate:
+## Current high-priority opportunities
+- **State of Illinois CPO-GS 3rd Annual Reverse Vendor Fair** — September 17, 2026, 9:00 AM–12:00 PM, Springfield. Registration live; cost and closing deadline not stated on official page. Priority: HIGH.
+- **2026 IMPACT Small Business Summit (MWRD)** — September 24, 2026, 8:00 AM–2:00 PM CDT, Malcolm X College, Chicago. 55+ exhibitors including agencies and prime contractors/consultants; registration link published. Cost and closing deadline not stated on official page. Priority: HIGH.
+- **Illinois CEI Mentor Protégé Program** — live; protégé participation requires BEP certification and documented track record. Priority: HIGH if eligible.
+- **Illinois CEI BEP/VBP Certification Kickstart Workshop** — September 23, 2026, 11:00 AM–1:00 PM, Skokie. Priority: HIGH if certification assistance is needed.
+- **Illinois CMS Vendor Outreach Office Hours** — next session September 2, 2026, 1:00–2:30 PM. Priority: MEDIUM-HIGH.
+
+## Other material programs to monitor and revalidate
 - Illinois APEX Accelerator
 - Duke Fuqua Client Consulting Practicum
 - ICCC National Accelerator
@@ -50,5 +60,4 @@ Initial research identified the following as material candidates to monitor and 
 - SBA Mentor-Protégé Program
 - Illinois Tollway Technical Assistance / Partnering for Growth
 - IDOT DBE Supportive Services
-
-This index should be updated as material program state changes or new high-priority programs are identified.
+- Illinois Small Business Set-Aside Program
