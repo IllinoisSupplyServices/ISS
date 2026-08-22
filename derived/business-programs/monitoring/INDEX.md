@@ -1,8 +1,8 @@
 # IS&S V1 Business Program Monitoring
 
-Latest run: `derived/business-programs/monitoring/runs/2026-08-22T08-08-43-04-00.md`
+Latest run: `derived/business-programs/monitoring/runs/2026-08-22T09-05-00-04-00.md`
 
-Latest result: MATERIAL NEWLY SURFACED PROGRAM. SBA Empower to Grow (E2G) was newly surfaced in the monitoring system as a strong Illinois-relevant no-cost government-contracting development resource. This is not claimed as a program that opened today; it is a newly identified high-value active program for IS&S consideration. Eligibility remains unresolved.
+Latest result: NO MATERIAL NEW APPLICATION WINDOW OR ELIGIBILITY CHANGE VERIFIED. Existing high-priority programs remain active. A planned American Water supplier-development expansion to 15 diverse suppliers across its footprint in October 2026 was newly surfaced as a research-watch item, but no Illinois-specific open application, deadline, cost, or cohort eligibility was verified, so it is not promoted as actionable yet.
 
 High-priority active watchlist:
 - SBA Empower to Grow (E2G) — HIGH IF ELIGIBLE — free government-contracting courses, one-on-one consulting, FedMAP coaching and agency/prime networking; Illinois served through Great Lakes provider
@@ -21,7 +21,10 @@ High-priority active watchlist:
 - SBA Mentor-Protégé Program — HIGH STRATEGIC / CONDITIONAL
 
 Supporting active resource:
-- BEP Certification Virtual Office Hours — August 26, 2026 — MEDIUM / recurring certification assistance
+- BEP Certification Virtual Office Hours — recurring certification assistance — MEDIUM
+
+Research watch:
+- American Water supplier-development expansion — October 2026 planned expansion to 15 diverse suppliers across the American Water footprint with mentorship and technical assistance; Illinois-specific application mechanism, eligibility, cost and deadline not yet verified. Official supplier registration: https://www.amwater.com/corp/partners-suppliers/suppliers/
 
 Watch item:
 - State of Illinois Vendor Summit — Fall 2026; exact date, registration window, cost and final location details remain pending.
@@ -37,8 +40,9 @@ Reviewed but not promoted this run:
 - Illinois I-Corps Fall 2026: academic-research commercialization focus; weak IS&S fit.
 - Illinois Business Consulting current August 21-28 window is for student consultant applications, not an external client application.
 - Illinois Consulting Academy recruitment is student-facing.
-- Illinois Transportation Enhancement Program is project-sponsor funding, not IS&S business-development support.
-- IPA energy-storage procurement is a procurement event rather than supplier-development/consulting support.
+- Gies Student Consulting Projects accepts client project submissions throughout the year, but no newly opened window or verified no-cost/subsidized term was found this run.
+- Illinois Sustainability project funding is student/university-project oriented.
+- Illinois IPA energy procurement items are procurement events rather than supplier-development/consulting support.
 - Standing SBA/CMS pages without a new application window, deadline or eligibility change.
 
 Run records are stored under `derived/business-programs/monitoring/runs/` and preserve source URLs, eligibility, cost, deadlines, benefits, status, changes, rejections, unknowns, and evidence.
